@@ -106,8 +106,8 @@ We don't have people with all of these titles. But this structure makes sense to
 #### Technical track
 
 * Junior Software Engineer (JSE)
-* [SE](https://sites.google.com/a/dosomething.org/tech/developer-orientation/software-engineer)
-* [SSE](https://sites.google.com/a/dosomething.org/tech/developer-orientation/senior-software-engineer)
+* [SE](Positions/SoftwareEngineer.md)
+* [SSE](Positions/Positions/SeniorSoftwareEngineer.md)
 * Principal Engineer / Application Architect: PE might be more hands-on than AA.
 
 
