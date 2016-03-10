@@ -2,10 +2,41 @@
 
 This is our working manifesto, which (obviously) we keep as a public and open-source document. It has details specific to the product, engineering, data, messaging, and mobile teams, but a lot of it is just about how to work together effectively and bring out the best in each other.
 
+## Core Values 
+or, we hold these truths to be self evident that all people are created equal.
+
 ### When rules suck, break them (together)
 This entire document is just a pull request away from change. The same is true of our team. We appreciate our sprint retros so much because (beer and also) they're a time when we can question anything about what we do, and how we work.
 
 Each member of the team is responsible for making this a great place to work, and for maximizing the power of technology to realize DoSomething's vision: the most young people doing the most good.
+
+### Everything is an experiment
+We're always looking for better ways to work, and end each sprint with a retrospective. The retro runs in the usual start-stop-continue style.
+
+### Diversity
+We know that our diversity -- of gender, ethnicity, race, education, geography, you name it -- makes us better communicators, because it reduces the chance that we'll thoughtlessly agree to a prevailing opinion. We seek out teammates who make us more diverse.
+
+### Trust
+We succeed only when we trust one another. We understand that no one on the team is perfect. When  you make a mistake, own up to it and learn from it. Trust is formed from by growing and learning from mistakes as a team. 
+
+### Communication
+While most people are in the New York office, not everyone is, most people are remote or WFH at least some of the time. Communication and documentation are important. Make liberal use of the tools we use to include everyone in the conversation, slack, hangouts, google docs and github. Write everything down. No tech decision, launch date, product build or product funeral should come as a shock to the people working on it. 
+Be polite in communications, keep in mind tone and the opportunity for missunderstanding is greater with online interactions. Use emoji. Explain. Read what other people have said before hitting send on your message. Slack is instant, but that doesn't mean you have to reply in an instant. 
+
+### Collaboration
+When you join DoSomething, you join a team. [Hold strong opinions, weakly](http://blog.codinghorror.com/strong-opinions-weakly-held/)
+We build products together, and have debates about everything before we build it. We want everyone to be on the same page. 
+
+### Unacceptable behaviors 
+(stolen and hardly adapted from [Vox](http://code-of-conduct.voxmedia.com/))
+
+We are committed to providing a welcoming and safe environment for people of all races, gender identities, gender expressions, sexual orientations, physical abilities, physical appearances, socioeconomic backgrounds, nationalities, ages, religions, and beliefs. Discrimination and harassment are expressly prohibited in our employee handbook. Harassment includes, but is not limited to, intimidation; stalking; unwanted photography; inappropriate physical contact; use of sexual or discriminatory imagery, comments, or jokes; sexist, racist, ableist, or otherwise discriminatory or derogatory language; and unwelcome sexual attention.
+
+Furthermore, any behavior or language which is unwelcoming—whether or not it rises to the level of harassment—is also strongly discouraged. Much exclusionary behavior takes the form of microaggressions—subtle put-downs which may be unconsciously delivered. Regardless of intent, microaggressions can have a significant negative impact on victims and have no place on our team.
+
+There are a host of behaviors and language common on tech teams which are worth noting as specifically unwelcome: Avoid “well, actuallys”—pedantic corrections that are often insulting and unproductive; make an effort not to interrupt your colleagues while they are speaking; never respond with surprise when someone asks for help; and take care neither to patronize your colleagues nor assume complete knowledge of a topic. This last point is especially important when talking about technical topics: Many women and people of color in the tech industry have many tales of being either [mansplained](https://www.guernicamag.com/daily/rebecca-solnit-men-explain-things-to-me/) about a field in which they are experts, or else excluded from learning opportunities because a colleague wouldn’t make an effort to answer questions—don’t be that person. Remember, your colleagues may have expertise you are unaware of. Listen more than you speak.
+
+
 
 ## How we get work done
 All of our code is open source and on GitHub. We work with GH Issues and pull requests. Every PR is peer-reviewed.
@@ -20,6 +51,7 @@ When possible, we use StyleCI to enforce coding style and conventions. StyleCI g
 
 
 ### API design
+We love the book [Build APIs you won't hate](https://leanpub.com/build-apis-you-wont-hate). And follow RESTful standards.  
 
 ### Data collection
 
@@ -63,14 +95,6 @@ We document in code (doc blocks, etc.), and in Markdown Readme files in the sour
 
 ## How our teams work
 
-### Everything is an experiment
-We're always looking for better ways to work, and end each sprint with a retrospective. The retro runs in the usual start-stop-continue style.
-
-
-### Diversity
-We know that our diversity -- of gender, ethnicity, race, education, geography, you name it -- makes us better communicators, because it reduces the chance that we'll thoughtlessly agree to a prevailing opinion. We seek out teammates who make us more diverse.
-
-
 ### Titles & career growth
 We try to keep some structure to our job titles because it maps more clearly onto the outside world. We don't want anyone to have an idiomatic title ("Chief monster imagineer") that might be a hindrance to making a great career move after DoSomething.
 
@@ -82,8 +106,8 @@ We don't have people with all of these titles. But this structure makes sense to
 #### Technical track
 
 * Junior Software Engineer (JSE)
-* SE
-* SSE
+* [SE](https://sites.google.com/a/dosomething.org/tech/developer-orientation/software-engineer)
+* [SSE](https://sites.google.com/a/dosomething.org/tech/developer-orientation/senior-software-engineer)
 * Principal Engineer / Application Architect: PE might be more hands-on than AA.
 
 
