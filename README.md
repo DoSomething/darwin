@@ -17,15 +17,25 @@ We're always looking for better ways to work, and end each sprint with a retrosp
 We know that our diversity -- of gender, ethnicity, race, education, geography, you name it -- makes us better communicators, because it reduces the chance that we'll thoughtlessly agree to a prevailing opinion. We seek out teammates who make us more diverse.
 
 ### Trust
-We succeed only when we trust one another. We understand that no one on the team is perfect. When  you make a mistake, own up to it and learn from it. Trust is formed from by growing and learning from mistakes as a team. 
+We succeed only when we trust one another. We understand that no one on the team is perfect. When you make a mistake, own up to it and learn from it. Trust is formed by growing and learning from mistakes as a team. 
 
 ### Communication
 While most people are in the New York office, not everyone is, most people are remote or WFH at least some of the time. Communication and documentation are important. Make liberal use of the tools we use to include everyone in the conversation, slack, hangouts, google docs and github. Write everything down. No tech decision, launch date, product build or product funeral should come as a shock to the people working on it. 
 Be polite in communications, keep in mind tone and the opportunity for missunderstanding is greater with online interactions. Use emoji. Explain. Read what other people have said before hitting send on your message. Slack is instant, but that doesn't mean you have to reply in an instant. 
 
+We encourage feedback in all directions, it makes us better. The sooner you're able to provide feedback the better. Within 48 hours is generally a good rule of thumb. A favorite structure for providing feedback is SBI:
+
+* Situation
+* Behavior
+* Impact
+
+Check out this [10 minute guide](https://www.mindtools.com/blog/corporate/wp-content/uploads/sites/2/2014/05/SBI-Feedback-Tool.pdf) for further reading and this [template](http://www.ccl.org/leadership/pdf/community/SBIJOBAID.pdf) if you need help organizing your thoughts.
+
 ### Collaboration
 When you join DoSomething, you join a team. [Hold strong opinions, weakly](http://blog.codinghorror.com/strong-opinions-weakly-held/)
 We build products together, and have debates about everything before we build it. We want everyone to be on the same page. 
+
+This goes both ways: when explaining something make sure to present enouch context for everyone to contribute to the conversation. Conversely, if something is unclear, ask.
 
 ### Unacceptable behaviors 
 (stolen and hardly adapted from [Vox](http://code-of-conduct.voxmedia.com/))
@@ -39,7 +49,7 @@ There are a host of behaviors and language common on tech teams which are worth 
 
 
 ## How we get work done
-All of our code is open source and on GitHub. We work with GH Issues and pull requests. Every PR is peer-reviewed.
+All of our code is open source and on GitHub. We work with GH Issues and pull requests. Every PR is peer-reviewed. We maintain our roadmaps and feature requests in Trello. 
 
 
 ### Code review and pull requests
@@ -96,7 +106,14 @@ We document in code (doc blocks, etc.), and in Markdown Readme files in the sour
 ## How our teams work
 
 ### Titles & career growth
-We try to keep some structure to our job titles because it maps more clearly onto the outside world. We don't want anyone to have an idiomatic title ("Chief monster imagineer") that might be a hindrance to making a great career move after DoSomething.
+We have a standard set of position levels across the organization: 
+
+* Associate
+* Manager
+* Director
+* C-Level
+
+Positions within product and engineering follow those levels as well. Where it makes sense we try to keep further structure to our job titles because it maps more clearly onto the outside world. We don't want anyone to have an idiomatic title ("Chief monster imagineer") that might be a hindrance to making a great career move after DoSomething.
 
 It's possible to switch between management and technical track -- there's not a rigid border. But it's important to know that you can have a rich career in either direction.
 
@@ -111,7 +128,7 @@ We don't have people with all of these titles. But this structure makes sense to
 * Principal Engineer / Application Architect: PE might be more hands-on than AA.
 
 
-#### Management track
+#### Engineering Management track
 
 * Technical Lead: This is a hybrid of technical seniority and management. The exact balance may change depending on the role or the team, and could go 100% in one direction.
 * Engineering Manager
