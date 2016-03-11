@@ -16,7 +16,7 @@ We're always looking for better ways to work, and end each sprint with a retrosp
 ### Diversity
 We know that our diversity -- of gender, ethnicity, race, education, geography, you name it -- makes us better communicators, because it reduces the chance that we'll thoughtlessly agree to a prevailing opinion. We seek out teammates who make us more diverse.
 
-### Trust
+### Trust asd asd a sd
 We succeed only when we trust one another. We understand that no one on the team is perfect. When  you make a mistake, own up to it and learn from it. Trust is formed from by growing and learning from mistakes as a team. 
 
 ### Communication
