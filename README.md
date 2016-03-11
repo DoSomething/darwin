@@ -37,6 +37,10 @@ We build products together, and have debates about everything before we build it
 
 This goes both ways: when explaining something make sure to present enouch context for everyone to contribute to the conversation. Conversely, if something is unclear, ask.
 
+We also share responsibility for our work. At Facebook, they say that ["Nothing at Facebook is someone else's problem."](https://medium.com/facebook-design/how-we-changed-the-facebook-friends-icon-dc8526ea9ea8#.tjb5mkj4u). The MTA has their famous slogan "If you see something. Say something." At DoSomething we embody this with our own saying "It's everyone's site." This of course extends to our mobile apps, admin apps, and the greater company at large.
+
+In order to accomplish this we foster curiousity. As outlined above we trust each other, AND we know our ideas are made stronger when they are questioned. This culminates in our concept of collaborative accountability. We work together to make our products, experiences, work processes better; we share responsibility for putting our best work forward; and we have owners who make sure that each component of what we do is working as expected.
+
 ### Unacceptable behaviors 
 (stolen and hardly adapted from [Vox](http://code-of-conduct.voxmedia.com/))
 
