@@ -49,7 +49,7 @@ There are a host of behaviors and language common on tech teams which are worth 
 
 
 ## How we get work done
-All of our code is open source and on GitHub. We work with GH Issues and pull requests. Every PR is peer-reviewed. We maintain our roadmaps and feature requets in Trello. 
+All of our code is open source and on GitHub. We work with GH Issues and pull requests. Every PR is peer-reviewed. We maintain our roadmaps and feature requests in Trello. 
 
 
 ### Code review and pull requests
