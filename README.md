@@ -20,7 +20,7 @@ We know that our diversity—of gender, ethnicity, race, education, geography, y
 We succeed only when we trust one another. We understand that no one on the team is perfect. When you make a mistake, own up to it and learn from it. Trust is formed by growing and learning from mistakes as a team. 
 
 ### Communication
-While most people are in the New York office, not everyone is; and those in NYC will sometimes work from home. Communication and documentation are crucial. Make liberal use of the tools we use to include everyone in the conversation: Slack, Gangouts, Google docs, and GitHub. Write everything down. No tech decision, launch date, product build or product funeral should come as a shock to the people working on it. 
+While most people are in the New York office, not everyone is, and most people are remote or working from home at least some of the time. Communication and documentation are crucial. Make liberal use of the tools we use to include everyone in the conversation: Slack, Gangouts, Google docs, and GitHub. Write everything down. No tech decision, launch date, product build or product funeral should come as a shock to the people working on it. 
 
 Be polite in communications: the opportunity for misunderstanding is greater with online interactions. Use emoji. Explain. Read what other people have said before hitting send on your message. Slack is instant, but that doesn't mean you have to reply in an instant. 
 
