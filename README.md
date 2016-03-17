@@ -2,7 +2,7 @@
 
 This is our working manifesto, which (obviously) we keep as a public and open-source document. It has details specific to the product, engineering, data, messaging, and mobile teams, but a lot of it is just about how to work together effectively and bring out the best in each other.
 
-## Core Values 
+## The basics 
 _Or, we hold these truths to be self-evident, that all_ people _are created equal._
 
 ### When rules suck, break them (together)
