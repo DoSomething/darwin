@@ -57,7 +57,7 @@ All of our code is open source and on GitHub. We work with GH Issues and pull re
 ### Code review and pull requests
 We do work in branches, generally off of dev (or master, depending on the project). We commit often, to capture our thinking. We package up our work as pull requests, and try to make these PRs as small as possible.
  
-A teammate must review our PR and give a +1 as approval before we can merge our changes. The main branch is [protected](https://help.github.com/articles/about-required-reviews-for-pull-requests/), it must be reviewed before a merge. The reason we review code is not to catch bugs, we want to improve the quality of code that we ship. We want our code to be maintanable, easily understood, and [stylish](https://github.com/DoSomething/code-style). When possible, we use StyleCI to enforce coding style and conventions. StyleCI gets called for each PR and update.
+A teammate must review your PR and give a +1 as approval before we can merge our changes. The main branch is [protected](https://help.github.com/articles/about-required-reviews-for-pull-requests/), it must be reviewed before a merge. The reason we review code is not to catch bugs, we want to improve the quality of code that we ship. We want our code to be maintanable, easily understood, and [stylish](https://github.com/DoSomething/code-style). When possible, we use StyleCI to enforce coding style and conventions. StyleCI gets called for each PR and update.
 
 __Making a pull request__  
 - If your code is not ready for review, or is a prototype that won't be merged, don't create a pull request. 
