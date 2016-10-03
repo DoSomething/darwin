@@ -56,10 +56,32 @@ All of our code is open source and on GitHub. We work with GH Issues and pull re
 
 ### Code review and pull requests
 We do work in branches, generally off of dev (or master, depending on the project). We commit often, to capture our thinking. We package up our work as pull requests, and try to make these PRs as small as possible.
+ 
+A teammate must review your PR and give a +1 as approval before we can merge our changes. The main branch is [protected](https://help.github.com/articles/about-required-reviews-for-pull-requests/), it must be reviewed before a merge. The reason we review code is not to catch bugs, we want to improve the quality of code that we ship. We want our code to be maintanable, easily understood, and [stylish](https://github.com/DoSomething/code-style). When possible, we use StyleCI to enforce coding style and conventions. StyleCI gets called for each PR and update.
 
-A teammate must review our PR and give a +1 as approval before we can merge our changes. There's no tooling to prevent our merging in changes. We enforce this by personal behavior, not by mechanics.
+__Making a pull request__  
+- If your code is not ready for review, or is a prototype that won't be merged, don't create a pull request 
+- When you create a pull request, fill out the pull request template
+- Highlight any areas you would particularly like review on
 
-When possible, we use StyleCI to enforce coding style and conventions. StyleCI gets called for each PR and update.
+__Giving feedback on a pull request__ 
+- Ask questions, don't make demands
+- Be mindful about how comments come off: "Did you think about" is better than "Why didn't you just..."
+- Compliment! If you see something you like, let them know
+- If you see multiple examples of the same thing (spelling, caps) don't comment every time, rather make one comment saying you noticed it throughout
+- Give context for your comments: "What are the benefits of refactoring X?" Without context, comments may seem arbitrary 
+- If you see a code smell, point them to the [prescription](https://sourcemaking.com/refactoring/smells)
+
+__What should the reviewer look for?__
+- Does this solve the issue it's referencing?
+- Is the code readable?
+- Is it well commented? 
+
+__Responding to feedback on your pull request__ 
+- Don't take comments personally: it should be a conversation not a personal attack
+- Make sure you understand _why_ you're making the requested changes: Does it make sense? Does it improve the code? 
+- After you're done implementing the changes, re-ping for a second review!
+
 
 ### API design
 We love the book [Build APIs you won't hate](https://leanpub.com/build-apis-you-wont-hate). And follow RESTful standards.  
