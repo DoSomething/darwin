@@ -139,7 +139,7 @@ We don't have people with all of these titles. But this structure makes sense to
 
 * Junior Software Engineer (JSE)
 * [SE](Positions/SoftwareEngineer.md)
-* [SSE](Positions/Positions/SeniorSoftwareEngineer.md)
+* [SSE](Positions/SeniorSoftwareEngineer.md)
 * Principal Engineer / Application Architect: PE might be more hands-on than AA.
 
 #### Engineering Management track
