@@ -55,9 +55,9 @@ There are a host of behaviors and language common on tech teams which are worth 
 All of our code is open source and on GitHub. We work with GH Issues and pull requests. Every PR is peer-reviewed. We maintain our roadmaps and feature requests in Trello. 
 
 ### Code review and pull requests
-We do work in branches, generally off of dev (or master, depending on the project). We commit often, to capture our thinking. We package up our work as pull requests, and try to make these PRs as small as possible.
+We do work in branches, generally off of dev (or master, depending on the project). We commit often, to capture our thinking. We package up our work as pull requests, and try to make these PRs as small as possible. 
  
-A teammate must review your PR and give a +1 as approval before we can merge our changes. The main branch is [protected](https://help.github.com/articles/about-required-reviews-for-pull-requests/), it must be reviewed before a merge. The reason we review code is not to catch bugs, we want to improve the quality of code that we ship. We want our code to be maintanable, easily understood, and [stylish](https://github.com/DoSomething/code-style). When possible, we use StyleCI to enforce coding style and conventions. StyleCI gets called for each PR and update.
+A teammate must review your PR and give a +1 as approval before we can merge our changes. The main branch is [protected](https://help.github.com/articles/about-required-reviews-for-pull-requests/), it must be reviewed before a merge. The reason we review code is not to catch bugs, we want to improve the quality of code that we ship. We want our code to be maintanable, easily understood, and [stylish](https://github.com/DoSomething/code-style). If you put code into production, you vouch that it can be an example of how to write code for our site. When possible, we use StyleCI to enforce coding style and conventions. StyleCI gets called for each PR and update.
 
 __Making a pull request__  
 - If your code is not ready for review, or is a prototype that won't be merged, don't create a pull request 
