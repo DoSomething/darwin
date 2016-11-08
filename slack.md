@@ -41,3 +41,6 @@ We use emoji reactions to send follow up messages. Here's our most frequent
 ## Bots 
 - 🔐[Slackbot](https://dosomething.slack.com/customize/slackbot) - just a pal that slack gives us for free, we can customize to respond to certain phrases 
 - 🔐[George](https://github.com/DoSomething/hubot-george) - custom bot, that we use to deploy code, and displays silly messages if you say "dance" 
+
+## Questions?
+Ask in 🔐[`#it-helpdesk`](https://dosomething.slack.com/archives/it-helpdesk)
