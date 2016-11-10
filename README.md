@@ -82,13 +82,26 @@ __Responding to feedback on your pull request__
 - Make sure you understand _why_ you're making the requested changes: Does it make sense? Does it improve the code? 
 - After you're done implementing the changes, re-ping for a second review!
 
-
 ### API design
-We love the book [Build APIs you won't hate](https://leanpub.com/build-apis-you-wont-hate). And follow RESTful standards.  
+We love the book [Build APIs you won't hate](https://leanpub.com/build-apis-you-wont-hate). And follow RESTful standards when we're dealing with RESTful things, like CRUD operations. 
 
-### Data collection
+### DevOps
+We value deploying often and easily over rapidly evolving our toolsets. This means we accept that we need to run new software in existing environments as a first, second, and third option.
 
-### Deploying code
+We know that we can get amazing work done with the tools we already have. We seek to constantly simplify our toolset and our production environment, because simplicity brings greater understanding, easier automation, more security, and better reliability.
+
+At least two sprints before a new system goes into production, the responsible team needs to review (at least) these requirements with the DevOps team.
+
+- Architecture and tech stack walkthrough
+- Deployment mechanism
+- Data storage & backup requirements
+- New Relic integration
+- StatHat coverage of significant events
+- Transactional ID handling (for instance, with our [Gateway](https://github.com/DoSomething/gateway) project)
+- Milestone dates (e.g., launch) on the Tech Dates calendar
+- LogStash support
+
+### Deployments
 We deploy as often as we can, and look for ways to increase the frequency. We have ChatOps integration through Slack and George, which is our customized Hubot.
 
 For projects under active development, we usually deploy daily. The most demanding deployments are on Phoenix, our main web app. This is a Drupal 7 app and a pain to test. We've automated much of the critical-path testing via Ghost Inspector, which reports results through Slack.
@@ -97,27 +110,30 @@ In Slack, a Phoenix deployment looks like `@george deploy production v2.2.53`, 
 
 We use both Jenkins and Wercker for deploys. Jenkins is standard for the Phoenix deploys, Wercker for most other deploys.
 
-### Infrastructure & DevOps
-We host on AWS, Google Cloud, and Heroku.
+### Hosting infrastructure
+We host on AWS, Heroku, and Digital Ocean.
 
 #### AWS
-Our main environment, including our user-facing web apps, user and content APIs, and message broker architecture, is on Amazon.
-
-#### Google Cloud
-We're building our data ingestion and warehousing on Google. There are networking bandwidth advantages that have been helpful.
+Our main environment, including our user-facing web apps, user and content APIs, and Quicksilver (messaging) architecture, is on Amazon.
 
 #### Heroku
-Several services, such as George/Hubot, are hosted on Heroku. It's easy, quick, and either cheap or free for us. It's a good hosting tool for quick hacks and prototypes.
+Several services, such as George/Hubot, and [Gambit](https://github.com/DoSomething/gambit), our messaging engine, are hosted on Heroku. It's easy, quick, and either cheap or free for us. It's a good hosting tool for quick hacks and prototypes, but can also scale for production.
+
+#### Digital Ocean
+Some of our data warehouse is on Digital Ocean.
 
 ### Testing & monitoring
-We maintain quality with unit and functional testing, but we’re constantly trying to find better ways to test. We know that unit testing can suck/be impossible in some situations (e.g., Drupal), so we look for other ways, like Ghost Inspector.
+We maintain quality with unit and functional testing, but we’re constantly trying to find better ways to test. We know that unit testing can suck/be impossible in some situations (e.g., Drupal), so we look for other ways, like Ghost Inspector. But we strongly prefer frameworks that make it easier to unit test.
 
-We monitor with New Relic, StatHat, Runscope, and Ghost Inspector.
+We monitor with New Relic, StatHat, Runscope, and Ghost Inspector. We centralize alerts and alerting policies in PagerDuty.
 
 ### Documentation
 We believe in great documentation—not for documentation's sake, but to make on-boarding and institutional memory better. Writing good docs also makes you more thoughtful about your choices. It's like teaching: you can't teach something you haven't thought through all the way.
 
 We document in code (doc blocks, etc.), and in Markdown Readme files in the source repos. Sometimes the project-level Readme is sufficient, but for [bigger projects](https://github.com/DoSomething/northstar/tree/dev/documentation) we'll break the docs into their own directory.
+
+### Data collection
+[TK]
 
 ## How our teams work
 
