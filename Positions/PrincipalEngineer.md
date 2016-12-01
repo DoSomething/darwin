@@ -1,5 +1,7 @@
 ## What does "Principal Software Engineer" mean?
 
+A PSE has contributed deeply and widely through code, architecture, new tools and practices, ideas, mentoring, and inspiration. Engineers come to a PSE first for guidance, new approaches, sanity checks, and other advice.
+
 N.b. Not every single one of these criteria needs to be satisfied to be considered principal. But the bulk of them need to be thoroughly satisfied: the bar should be extremely high.
 
 ### Mastery of multiple frameworks and languages
@@ -11,6 +13,7 @@ N.b. Not every single one of these criteria needs to be satisfied to be consider
 - Significant contributions in more than one context: presentation layer, data modeling, event handling, software architecture, continuous integration, testing
 - Demonstrated ability to switch contexts quickly and contribute across multiple teams and projects
 - Knowledge of framework/language-specific and general best practices: coding standards, core architecture, package management
+- Understanding of how software actually runs in the wild; ability to support software running in production
 
 ### Technical mentorship
 - Regular advice and guidance with other developers on architecture, best practices, documentation
