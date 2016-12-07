@@ -96,26 +96,18 @@ At least two sprints before a new system goes into production, the responsible t
 - Deployment mechanism
 - Data storage & backup requirements
 - New Relic integration
-- StatHat coverage of significant events
-- Transactional ID handling (for instance, with our [Gateway](https://github.com/DoSomething/gateway) project)
 - Milestone dates (e.g., launch) on the Tech Dates calendar
+- QA and Production DNS entry requirements
 - LogStash support
 
-At a minimum, we expect that each app will have the following requirements:
+Some apps may also require the following support.
 
-- Jenkins deployment
-- NewRelic server monitoring
-- Application and server logs shipping to LogStash
-- QA and Production environments with their respective DNS entries set up
-- Backup mechanisms in place for the data, code, and environment
-- Runscope or Ghost Inspector tests for monitoring
-
-Some apps may also require the following:
-
-- SSL setup
-- NewRelic Application Monitoring
-- Laravel Queue setup
-- Fastly configuration
+- StatHat coverage of significant events
+- Transactional ID handling (for instance, with our [Gateway](https://github.com/DoSomething/gateway) project)
+- Runscope or Ghost Inspector tests for monitoring and debugging
+- SSL requirements
+- Laravel Queue requirements
+- CDN support
 
 ### Deployments
 We deploy as often as we can, and look for ways to increase the frequency. We have ChatOps integration through Slack and George, which is our customized Hubot.
