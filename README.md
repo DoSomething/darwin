@@ -3,7 +3,7 @@
 This is our working manifesto, which (obviously) we keep as a public and open-source document. It has details specific to the product, engineering, data, messaging, and mobile teams, but a lot of it is just about how to work together effectively and bring out the best in each other.
 
 ## The basics
-_Or, we hold these truths to be self-evident, that all_ people _are created equal._
+_Or, We hold these truths to be self-evident: that all_ peeps _are created equal._
 
 ### When rules suck, break them (together)
 This entire document is just a pull request away from change. The same is true of our team. We appreciate our sprint retros so much because (beer and also) they're a time when we can question anything about what we do, and how we work.
