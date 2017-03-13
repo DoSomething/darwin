@@ -14,7 +14,7 @@ Each member of the team is responsible for making this a great place to work, an
 We're always looking for better ways to work, and end each sprint with a retrospective. The retro runs in the usual start-stop-continue style.
 
 ### Diversity
-We know that our diversity—of gender, ethnicity, race, education, geography, you name it—makes us better communicators, because it reduces the chance that we'll thoughtlessly agree to a prevailing opinion. We seek out teammates who make us more diverse.
+We know that our diversity — of gender, ethnicity, race, education, geography, you name it — makes us better communicators, because it reduces the chance that we'll thoughtlessly agree to a prevailing opinion. We seek out teammates who make us more diverse.
 
 ### Trust
 We succeed only when we trust one another. We understand that no one on the team is perfect. When you make a mistake, own up to it and learn from it. Trust is formed by growing and learning from mistakes as a team.
@@ -47,9 +47,9 @@ _(Stolen and hardly adapted from [Vox](http://code-of-conduct.voxmedia.com/))_
 
 We are committed to providing a welcoming and safe environment for people of all races, gender identities, gender expressions, sexual orientations, physical abilities, physical appearances, socioeconomic backgrounds, nationalities, ages, religions, and beliefs. Discrimination and harassment are expressly prohibited in our employee handbook. Harassment includes, but is not limited to, intimidation; stalking; unwanted photography; inappropriate physical contact; use of sexual or discriminatory imagery, comments, or jokes; sexist, racist, ableist, or otherwise discriminatory or derogatory language; and unwelcome sexual attention.
 
-Furthermore, any behavior or language which is unwelcoming—whether or not it rises to the level of harassment—is also strongly discouraged. Much exclusionary behavior takes the form of microaggressions—subtle put-downs which may be unconsciously delivered. Regardless of intent, microaggressions can have a significant negative impact on victims and have no place on our team.
+Furthermore, any behavior or language which is unwelcoming — whether or not it rises to the level of harassment — is also strongly discouraged. Much exclusionary behavior takes the form of microaggressions — subtle put-downs which may be unconsciously delivered. Regardless of intent, microaggressions can have a significant negative impact on victims and have no place on our team.
 
-There are a host of behaviors and language common on tech teams which are worth noting as specifically unwelcome: Avoid “well, actuallys”—pedantic corrections that are often insulting and unproductive; make an effort not to interrupt your colleagues while they are speaking; never respond with surprise when someone asks for help; and take care neither to patronize your colleagues nor assume complete knowledge of a topic. This last point is especially important when talking about technical topics: Many women and people of color in the tech industry have many tales of being either [mansplained](https://www.guernicamag.com/daily/rebecca-solnit-men-explain-things-to-me/) about a field in which they are experts, or else excluded from learning opportunities because a colleague wouldn’t make an effort to answer questions—don’t be that person. Remember, your colleagues may have expertise you are unaware of. Listen more than you speak.
+There are a host of behaviors and language common on tech teams which are worth noting as specifically unwelcome: Avoid “well, actuallys” — pedantic corrections that are often insulting and unproductive; make an effort not to interrupt your colleagues while they are speaking; never respond with surprise when someone asks for help; and take care neither to patronize your colleagues nor assume complete knowledge of a topic. This last point is especially important when talking about technical topics: Many women and people of color in the tech industry have many tales of being either [mansplained](https://www.guernicamag.com/daily/rebecca-solnit-men-explain-things-to-me/) about a field in which they are experts, or else excluded from learning opportunities because a colleague wouldn’t make an effort to answer questions — don’t be that person. Remember, your colleagues may have expertise you are unaware of. Listen more than you speak.
 
 ## How we get work done
 All of our code is open source and on GitHub. We work with GH Issues and pull requests. Every PR is peer-reviewed. We maintain our roadmaps and feature requests in Trello.
@@ -136,7 +136,7 @@ We maintain quality with unit and functional testing, but we’re constantly try
 We monitor with New Relic, StatHat, Runscope, and Ghost Inspector. We centralize alerts and alerting policies in PagerDuty.
 
 ### Documentation
-We believe in great documentation—not for documentation's sake, but to make on-boarding and institutional memory better. Writing good docs also makes you more thoughtful about your choices. It's like teaching: you can't teach something you haven't thought through all the way.
+We believe in great documentation — not for documentation's sake, but to make on-boarding and institutional memory better. Writing good docs also makes you more thoughtful about your choices. It's like teaching: you can't teach something you haven't thought through all the way.
 
 We document in code (doc blocks, etc.), and in Markdown Readme files in the source repos. Sometimes the project-level Readme is sufficient, but for [bigger projects](https://github.com/DoSomething/northstar/tree/dev/documentation) we'll break the docs into their own directory.
 
@@ -155,7 +155,7 @@ We have a standard set of position levels across the organization:
 
 Positions within product and engineering follow those levels as well. Where it makes sense we try to add more structure to our job titles because it maps more clearly onto the outside world. We don't want anyone to have an idiomatic title ("Chief monster imagineer") that might be a hindrance to making a great career move after DoSomething.
 
-It's possible to switch between management and technical track—there's not a rigid border. But it's important to know that you can have a rich career in either direction.
+It's possible to switch between management and technical track — there's not a rigid border. But it's important to know that you can have a rich career in either direction.
 
 We don't have people with all of these titles. But this structure makes sense to us (for now).
 

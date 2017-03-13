@@ -32,7 +32,7 @@ Slack has a very [powerful search feature](https://get.slack.help/hc/en-us/artic
 Only use the following commands if everyone needs to know something urgent (for example there is food in the kitchen, or we are filming in the office) 
 - `@here` will send a desktop/mobile notification to everyone who is currently active in that channel
 - `@channel` will send a desktop/mobile notification to EVERYONE in the channel
-- `@alert` will alert tech people if you see something wrong with the dosomething.org website—do this in the `#devops` room
+- `@alert` will alert tech people if you see something wrong with the dosomething.org website — do this in the `#devops` room
 
 ### Emoji  
 After 3 months at DoSomething we will make an emoji of your face.
