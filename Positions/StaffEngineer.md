@@ -1,6 +1,6 @@
-## What does "Principal Software Engineer" mean?
+## What does "Staff Software Engineer" mean?
 
-A PSE has contributed deeply and widely through code, architecture, new tools and practices, ideas, mentoring, and inspiration. Engineers come to a PSE first for guidance, new approaches, sanity checks, and other advice.
+A Staff SE has contributed deeply and widely through code, architecture, new tools and practices, ideas, mentoring, and inspiration. Engineers come to a Staff SE first for guidance, new approaches, sanity checks, and other advice.
 
 N.b. Not every single one of these criteria needs to be satisfied to be considered principal. But the bulk of them need to be thoroughly satisfied: the bar should be extremely high.
 
@@ -29,6 +29,6 @@ N.b. Not every single one of these criteria needs to be satisfied to be consider
 
 ### Architectural contributions
 - Major contributions to our JavaScript, Laravel, Forge frameworks
-- Major contributions to system migrations, including operational aspects (e.g., implementing the Strangler Pattern in production systems)
+- Major contributions to system migrations, including operational aspects (e.g., implementing the Strangler Pattern in legacy migrations)
 - Architecture-level consulting with other engineers across projects
 - Seek out problems to solve with non-technical staff
