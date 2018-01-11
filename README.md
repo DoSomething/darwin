@@ -3,10 +3,9 @@
 This is our working manifesto, which (obviously) we keep as a public and open-source document. It has details specific to the product, engineering, data, messaging, and mobile teams, but a lot of it is just about how to work together effectively and bring out the best in each other.
 
 ## The basics
-_Or, We hold these truths to be self-evident: that all_ peeps _are created equal._
 
-### When rules suck, break them (together)
-This entire document is just a pull request away from change. The same is true of our team. We appreciate our sprint retros so much because (beer and also) they're a time when we can question anything about what we do, and how we work.
+### When rules stop working, break them (together)
+This entire document is just a pull request away from change. The same is true of our team. We appreciate our sprint retros so much because they're a time when we can question anything about what we do, and how we work.
 
 Each member of the team is responsible for making this a great place to work, and for maximizing the power of technology to realize DoSomething's vision: the most young people doing the most good.
 
@@ -127,9 +126,6 @@ Our main environment, including our user-facing web apps, user and content APIs,
 #### Heroku
 Several services, such as George/Hubot, and [Gambit](https://github.com/DoSomething/gambit), our messaging engine, are hosted on Heroku. It's easy, quick, and either cheap or free for us. It's a good hosting tool for quick hacks and prototypes, but can also scale for production.
 
-#### Digital Ocean
-Some of our data warehouse is on Digital Ocean.
-
 ### Testing & monitoring
 We maintain quality with unit and functional testing, but we’re constantly trying to find better ways to test. We know that unit testing can suck/be impossible in some situations (e.g., Drupal), so we look for other ways, like Ghost Inspector. But we strongly prefer frameworks that make it easier to unit test.
 
@@ -164,11 +160,11 @@ We don't have people with all of these titles. But this structure makes sense to
 * Junior Software Engineer (JSE)
 * [SE](Positions/SoftwareEngineer.md)
 * [SSE](Positions/SeniorSoftwareEngineer.md)
-* [Principal Engineer](Positions/PrincipalEngineer.md)
+* [Staff Engineer](Positions/PrincipalEngineer.md)
+* Technical Lead: This is a role to play on a team, not a job title. The technical lead serves as the engineering point person for a particular team, helps to define and delegate work, provide estimates, and make architectural decisions. Technical leads gather for a monthly architecture governance meeting, where they work together on systems integration and other high-level topics. Technical leads do not manage the other engineers' careers, only their work.
 
 #### Engineering Management track
 
-* Technical Lead: This is a hybrid of technical seniority and management. The exact balance may change depending on the role or the team, and could go 100% in one direction.
 * Engineering Manager
 * Director of Engineering
 * VP, Engineering
