@@ -118,10 +118,12 @@ In Slack, a Phoenix deployment looks like `@george deploy production v2.2.53`, 
 We use both Jenkins and Wercker for deploys. Jenkins is standard for the Phoenix deploys, Wercker for most other deploys.
 
 ### Hosting infrastructure
-We host on AWS, Heroku, and Digital Ocean.
+We host on AWS and Heroku.
+
+[TODO: This section needs updating!]
 
 #### AWS
-Our main environment, including our user-facing web apps, user and content APIs, and Quicksilver (messaging) architecture, is on Amazon.
+Most of our main environment, including our user-facing web apps, user and content APIs, and Quicksilver (messaging) architecture, is on Amazon.
 
 #### Heroku
 Several services, such as George/Hubot, and [Gambit](https://github.com/DoSomething/gambit), our messaging engine, are hosted on Heroku. It's easy, quick, and either cheap or free for us. It's a good hosting tool for quick hacks and prototypes, but can also scale for production.
