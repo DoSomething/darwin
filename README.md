@@ -162,7 +162,7 @@ We don't have people with all of these titles. But this structure makes sense to
 * Junior Software Engineer (JSE)
 * [SE](Positions/SoftwareEngineer.md)
 * [SSE](Positions/SeniorSoftwareEngineer.md)
-* [Staff Engineer](Positions/PrincipalEngineer.md)
+* [Staff Engineer](Positions/StaffEngineer.md)
 * Technical Lead: This is a role to play on a team, not a job title. The technical lead serves as the engineering point person for a particular team, helps to define and delegate work, provide estimates, and make architectural decisions. Technical leads gather for a monthly architecture governance meeting, where they work together on systems integration and other high-level topics. Technical leads do not manage the other engineers' careers, only their work.
 
 #### Engineering Management track
