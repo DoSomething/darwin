@@ -1,27 +1,26 @@
 # Darwin
 
-This is our working manifesto, which (obviously) we keep as a public and open-source document. It has details specific to the product, engineering, data, messaging, and mobile teams, but a lot of it is just about how to work together effectively and bring out the best in each other.
+This is our working manifesto, which we keep as a public document. It has details specific to the product, engineering, and data teams, but a lot of it is just about how to work together effectively and bring out the best in each other.
 
 ## The basics
-
-### When rules stop working, break them (together)
-This entire document is just a pull request away from change. The same is true of our team. We appreciate our sprint retros so much because they're a time when we can question anything about what we do, and how we work.
 
 Each member of the team is responsible for making this a great place to work, and for maximizing the power of technology to realize DoSomething's vision: the most young people doing the most good.
 
 ### Everything is an experiment
-We're always looking for better ways to work, and end each sprint with a retrospective. The retro runs in the usual start-stop-continue style.
+We're always looking for better ways to work, and end each sprint with a retrospective to find these improvements. The retro runs in the usual start-stop-continue style. We hold an all-teams retro, which is great for general culture and surfacing larger questions or issues. Individual teams also hold their own retros, which focus more tightly on that team's work and goals.
+
+This entire document is just a pull request away from change. The same is true of our team structures and working arrangements. We’ve arrived at our current arrangement through steady evolution, and we’re willing to keep evolving. The qualities we work to protect have to do with how we communicate and respect each other, and how we hold each other accountable to great work and a great attitude. The rest can change.
 
 ### Diversity
-We know that our diversity—of gender, ethnicity, race, education, geography, you name it—makes us better communicators, because it reduces the chance that we'll thoughtlessly agree to a prevailing opinion. We seek out teammates who make us more diverse.
+We know that our diversity—of gender identity, ethnicity, race, sexual orientation, age, education, religion, geography, you name it—makes us better communicators, because it reduces the chance that we'll thoughtlessly agree to a prevailing opinion. We seek out teammates who make us more diverse.
 
 ### Trust
-We succeed only when we trust one another. We understand that no one on the team is perfect. When you make a mistake, own up to it and learn from it. Trust is formed by growing and learning from mistakes as a team.
+As Google’s [Project Aristotle](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html) shows, we succeed only when we trust one another. We understand that no one on the team is perfect. When you make a mistake, own up to it and learn from it. Trust is formed by growing and learning from mistakes as a team.
 
 ### Communication
-While most people are in the New York office, not everyone is, and most people are remote or working from home at least some of the time. Communication and documentation are crucial. Make liberal use of the tools we use to include everyone in the conversation: Slack, Hangouts, Google docs, and GitHub. Write everything down. No tech decision, launch date, product build or product funeral should come as a shock to the people working on it.
+While most people are in the New York office, not everyone is, and most people work remotely at least some of the time. Communication and documentation are crucial. Make liberal use of the tools we use to include everyone in the conversation: Slack, video chat, Google Drive and Calendar, Pivotal Tracker, and GitHub. Write everything down. No tech decision, launch date, product build, or product funeral should come as a shock to the people working on it.
 
-Be polite in communications: the opportunity for misunderstanding is greater with online interactions. Use emoji. Explain. Read what other people have said before hitting send on your message. Slack is instant, but that doesn't mean you have to reply in an instant.
+Be courteous in communications: The opportunity for misunderstanding is greater with online interactions. Ask if you’re missing some important information. Use emoji. Give context. Read what other people have said before hitting send on your message. Slack is instant, but that doesn't mean you have to reply in an instant.
 
 We encourage feedback in all directions, it makes us better. The sooner you're able to provide feedback the better. Within 48 hours is generally a good rule of thumb. A favorite structure for providing feedback is SBI:
 
@@ -29,7 +28,9 @@ We encourage feedback in all directions, it makes us better. The sooner you're a
 * Behavior
 * Impact
 
-Check out this [10 minute guide](https://www.mindtools.com/blog/corporate/wp-content/uploads/sites/2/2014/05/SBI-Feedback-Tool.pdf) for more, and this [template](http://www.ccl.org/leadership/pdf/community/SBIJOBAID.pdf) if you need help organizing your thoughts.
+Check out this [10 minute guide](https://www.mindtools.com/blog/corporate/wp-content/uploads/sites/2/2014/05/SBI-Feedback-Tool.pdf) for more on SBI.
+
+Giving feedback to peers is hard. It usually feels awkward. But, when you get constructive, timely, actionable feedback from a peer, you realize it’s gold. It’s what you’ve always wanted to know from your colleagues. We talk about peer feedback a lot, because we realize that it’s both difficult and really valuable.
 
 ### Collaboration
 When you join DoSomething, you join a team. [Hold strong opinions, weakly](http://blog.codinghorror.com/strong-opinions-weakly-held/).
@@ -37,18 +38,16 @@ We build products together, and have debates about everything before we build it
 
 This goes both ways: when explaining something make sure to present enough context for everyone to contribute to the conversation. Conversely, if something is unclear, ask.
 
-We also share responsibility for our work. At Facebook, they say that ["Nothing at Facebook is someone else's problem."](https://medium.com/facebook-design/how-we-changed-the-facebook-friends-icon-dc8526ea9ea8#.tjb5mkj4u). The MTA has their famous slogan: "If you see something, say something." At DoSomething we embody this with our own saying: "It's everyone's site." This of course extends to our mobile apps, admin apps, and the whole organization.
-
-In order to accomplish this we foster curiosity. We trust each other, AND we know our ideas are made stronger when they are questioned. This culminates in our concept of collaborative accountability. We work together to make our products, experiences, and work processes better; we share responsibility for putting our best work forward; and we have owners who make sure that each component of what we do is working as expected.
+We also share responsibility for our work. At Facebook, they say that ["Nothing at Facebook is someone else's problem."](https://medium.com/facebook-design/how-we-changed-the-facebook-friends-icon-dc8526ea9ea8#.tjb5mkj4u) We try to live that—our version is, “It’s everybody’s site.” The products and experiences we create are a direct reflection of the structure of our teams, how we communicate, and what we value.
 
 ### Unacceptable behaviors
-_(Stolen and hardly adapted from [Vox](http://code-of-conduct.voxmedia.com/))_
+_Stolen and hardly adapted from [Vox](http://code-of-conduct.voxmedia.com/)_
 
 We are committed to providing a welcoming and safe environment for people of all races, gender identities, gender expressions, sexual orientations, physical abilities, physical appearances, socioeconomic backgrounds, nationalities, ages, religions, and beliefs. Discrimination and harassment are expressly prohibited in our employee handbook. Harassment includes, but is not limited to, intimidation; stalking; unwanted photography; inappropriate physical contact; use of sexual or discriminatory imagery, comments, or jokes; sexist, racist, ableist, or otherwise discriminatory or derogatory language; and unwelcome sexual attention.
 
-Furthermore, any behavior or language which is unwelcoming—whether or not it rises to the level of harassment—is also strongly discouraged. Much exclusionary behavior takes the form of microaggressions—subtle put-downs which may be unconsciously delivered. Regardless of intent, microaggressions can have a significant negative impact on victims and have no place on our team.
+Furthermore, any behavior or language which is unwelcoming—whether or not it rises to the level of harassment—is also strongly discouraged. A lot of exclusionary behavior takes the form of microaggressions: subtle put-downs that may be unconsciously delivered. Regardless of intent, microaggressions can have a significant negative impact on victims and have no place on our team.
 
-There are a host of behaviors and language common on tech teams which are worth noting as specifically unwelcome: Avoid “well, actuallys”—pedantic corrections that are often insulting and unproductive; make an effort not to interrupt your colleagues while they are speaking; never respond with surprise when someone asks for help; and take care neither to patronize your colleagues nor assume complete knowledge of a topic. This last point is especially important when talking about technical topics: Many women and people of color in the tech industry have many tales of being either [mansplained](https://www.guernicamag.com/daily/rebecca-solnit-men-explain-things-to-me/) about a field in which they are experts, or else excluded from learning opportunities because a colleague wouldn’t make an effort to answer questions—don’t be that person. Remember, your colleagues may have expertise you are unaware of. Listen more than you speak.
+There are a host of behaviors and language common on tech teams which are specifically unwelcome: Avoid “well, actuallys”—pedantic corrections that are often insulting and unproductive; make an effort not to interrupt your colleagues while they are speaking; never respond with surprise when someone asks for help; and take care neither to patronize your colleagues nor assume complete knowledge of a topic. This last point is especially important when talking about technical topics: Many women and people of color in the tech industry have many tales of being either [mansplained](https://www.guernicamag.com/daily/rebecca-solnit-men-explain-things-to-me/) about a field in which they are experts, or else excluded from learning opportunities because a colleague wouldn’t make an effort to answer questions. Don’t be that person! Remember, your colleagues may have expertise you are unaware of. Listen more than you speak.
 
 ## How we get work done
 All of our code is open source and on GitHub. We work with GH Issues and pull requests. Every PR is peer-reviewed. We maintain our roadmaps and feature requests in Trello.
