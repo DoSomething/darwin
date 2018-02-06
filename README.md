@@ -141,9 +141,8 @@ We document in code (doc blocks, etc.), and in Markdown Readme files in the sour
 ### Data collection
 [TK]
 
-## How our teams work
+## Titles & career growth
 
-### Titles & career growth
 We have a standard set of position levels across the organization:
 
 * Associate
@@ -151,11 +150,9 @@ We have a standard set of position levels across the organization:
 * Director
 * C-Level
 
-Positions within product and engineering follow those levels as well. Where it makes sense we try to add more structure to our job titles because it maps more clearly onto the outside world. We don't want anyone to have an idiomatic title ("Chief monster imagineer") that might be a hindrance to making a great career move after DoSomething.
+Positions within product and engineering implicitly follow those levels as well, but we add more structure to our job titles because it maps more clearly onto the outside world. We don't want anyone to have an idiomatic title (“Deputy Chief Monster Imagineer") that might be a hindrance to making a great career move after DoSomething.
 
 It's possible to switch between management and technical track—there's not a rigid border. But it's important to know that you can have a rich career in either direction.
-
-We don't have people with all of these titles. But this structure makes sense to us (for now).
 
 #### Technical track
 
@@ -163,9 +160,11 @@ We don't have people with all of these titles. But this structure makes sense to
 * [SE](Positions/SoftwareEngineer.md)
 * [SSE](Positions/SeniorSoftwareEngineer.md)
 * [Staff Engineer](Positions/StaffEngineer.md)
-* Technical Lead: This is a role to play on a team, not a job title. The technical lead serves as the engineering point person for a particular team, helps to define and delegate work, provide estimates, and make architectural decisions. Technical leads gather for a monthly architecture governance meeting, where they work together on systems integration and other high-level topics. Technical leads do not manage the other engineers' careers, only their work.
+* Technical Lead: _This is a role to play on a team, not a job title._ The technical lead serves as the engineering point person for a particular team, helps to define and delegate work, provide estimates, and make architectural decisions. Technical leads gather for a monthly architecture governance meeting, where they work together on systems integration and other high-level topics. Technical leads do not manage the other engineers' careers, only their work.
 
 #### Engineering Management track
+
+_We don’t have people in all of these positions, but this is still the progression._
 
 * Engineering Manager
 * Director of Engineering
