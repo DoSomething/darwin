@@ -51,85 +51,91 @@ Furthermore, any behavior or language which is unwelcoming—whether or not it r
 There are a host of behaviors and language common on tech teams which are worth noting as specifically unwelcome: Avoid “well, actuallys”—pedantic corrections that are often insulting and unproductive; make an effort not to interrupt your colleagues while they are speaking; never respond with surprise when someone asks for help; and take care neither to patronize your colleagues nor assume complete knowledge of a topic. This last point is especially important when talking about technical topics: Many women and people of color in the tech industry have many tales of being either [mansplained](https://www.guernicamag.com/daily/rebecca-solnit-men-explain-things-to-me/) about a field in which they are experts, or else excluded from learning opportunities because a colleague wouldn’t make an effort to answer questions—don’t be that person. Remember, your colleagues may have expertise you are unaware of. Listen more than you speak.
 
 ## How we get work done
-All of our code is open source and on GitHub. We work with GH Issues and pull requests. Every PR is peer-reviewed. We maintain our roadmaps and feature requests in Trello.
+All of our code is open source and on GitHub. We organize stories and plan sprints with Pivotal Tracker. Individual coding tasks are tracked as GitHub issues. We use pull requests to review and merge changes. Every PR is peer-reviewed.
 
 ### Code review and pull requests
-We do work in branches, generally off of dev (or master, depending on the project). We commit often, to capture our thinking. We package up our work as pull requests, and try to make these PRs as small as possible.
+We work in branches, generally off of dev (or master, depending on the project). We commit often, to capture our thinking. We package up our work as pull requests, and try to keep PRs reasonably small. (This also makes it more likely someone will review your PR!)
 
-A teammate must review your PR and give a +1 as approval before we can merge our changes. The main branch is [protected](https://help.github.com/articles/about-required-reviews-for-pull-requests/), it must be reviewed before a merge. The reason we review code is not to catch bugs, we want to improve the quality of code that we ship. We want our code to be maintanable, easily understood, and [stylish](https://github.com/DoSomething/code-style). If you put code into production, you vouch that it can be an example of how to write code for our site. When possible, we use StyleCI to enforce coding style and conventions. StyleCI gets called for each PR and update.
+A teammate must review your PR, get their questions answered, and give a +1 as approval before you can merge your changes. The main branch is [protected](https://help.github.com/articles/about-required-reviews-for-pull-requests/). The reason we review code is not just to catch bugs, but because we want to improve the quality of code that we ship. We want our code to be maintainable, easily understood, and [stylish](https://github.com/DoSomething/code-style). If you push code to production, you’re implicitly vouching for it as an example of how to write code at DoSomething. When possible, we use StyleCI to enforce coding style and conventions. StyleCI gets called for each PR and update.
 
-__Making a pull request__
-- If your code is not ready for review, or is a prototype that won't be merged, don't create a pull request
-- When you create a pull request, fill out the pull request template
+#### Making a pull request
+
+- If your code is not ready for review, or is a prototype that won't be merged, don't create a pull request—or create one prefixed with DON’T MERGE in the title
+- When you create a pull request, fill out the [pull request template](https://github.com/blog/2111-issue-and-pull-request-templates)
 - Highlight any areas you would particularly like review on
 
-__Giving feedback on a pull request__
+#### Giving feedback on a pull request
+
 - Ask questions, don't make demands
 - Be mindful about how comments come off: "Did you think about" is better than "Why didn't you just..."
 - Compliment! If you see something you like, let them know
 - If you see multiple examples of the same thing (spelling, caps) don't comment every time, rather make one comment saying you noticed it throughout
-- Give context for your comments: "What are the benefits of refactoring X?" Without context, comments may seem arbitrary
+- Give context for your comments, so they don’t read as arbitrary
 - If you see a code smell, point them to the [prescription](https://sourcemaking.com/refactoring/smells)
 
-__What should the reviewer look for?__
-- Does this solve the issue it's referencing?
+#### What should the reviewer look for?
+
+- Does this PR solve the issue it's referencing?
 - Is the code readable?
 - Is it well commented?
 
-__Responding to feedback on your pull request__
-- Don't take comments personally: it should be a conversation not a personal attack
+#### Responding to feedback on your pull request
+
+- Don't take comments personally: it should be a conversation, not a personal attack
 - Make sure you understand _why_ you're making the requested changes: Does it make sense? Does it improve the code?
 - After you're done implementing the changes, re-ping for a second review!
 
 ### API design
-We love the book [Build APIs you won't hate](https://leanpub.com/build-apis-you-wont-hate). And follow RESTful standards when we're dealing with RESTful things, like CRUD operations.
+We love the book [Build APIs you won't hate](https://leanpub.com/build-apis-you-wont-hate). Follow RESTful standards when dealing with RESTful things, like CRUD operations.
+
+Version your API when making significant changes. With the proliferation of interrelated services in our environment, it can be very difficult to know whether a substantial change to an endpoint you own will have side effects elsewhere. There are [plenty of good resources](http://www.baeldung.com/rest-versioning) out there, as well as established practices at DoSomething. Talk to your fellow engineers to make sure your approach makes sense.
 
 ### DevOps
-We value deploying often and easily over rapidly evolving our toolsets. This means we accept that we need to run new software in existing environments as a first, second, and third option.
 
-We know that we can get amazing work done with the tools we already have. We seek to constantly simplify our toolset and our production environment, because simplicity brings greater understanding, easier automation, more security, and better reliability.
+We value deploying often and easily over using the latest and greatest. This means we accept that we need to run new software on existing tech stacks as a first, second, and third option. A lot of our tech choices are [boring on purpose](http://mcfunley.com/choose-boring-technology).
+
+We constantly seek to simplify our toolset and our production environment, because simplicity brings greater understanding, easier automation, more security, and better reliability. (Simplifying is hard, and takes vigilance.)
 
 At least two sprints before a new system goes into production, the responsible team needs to review (at least) these requirements with the DevOps team.
 
+- Mission criticality (an experiment, an add-on, or a new critical service?)
 - Architecture and tech stack walkthrough
+- Hosting paradigm: Can this run in a serverless environment?
 - Deployment mechanism
-- Data storage & backup requirements
-- New Relic integration
-- Milestone dates (e.g., launch) on the Tech Dates calendar
-- QA and Production DNS entry requirements
+- Data storage & backup
+- Security and member data privacy
+- ETL (data extraction) processes
+- New Relic and other monitoring integrations
+- Milestone dates (launch, etc.) on the shared Tech Dates calendar
+- QA and Production DNS entries
 - LogStash support
 
-Some apps may also require the following support.
+Some apps may also require the following support:
 
-- StatHat coverage of significant events
+- Instrumentation of significant user or business events
 - Transactional ID handling (for instance, with our [Gateway](https://github.com/DoSomething/gateway) project)
 - Runscope or Ghost Inspector tests for monitoring and debugging
-- SSL requirements
+- TLS requirements
 - Laravel Queue requirements
-- CDN support
+- [Blink](https://github.com/DoSomething/blink) (message bus) integration
+- Fastly support
 
 ### Deployments
-We deploy as often as we can, and look for ways to increase the frequency. We have ChatOps integration through Slack and George, which is our customized Hubot.
+We deploy as often as we can, and look for ways to increase the frequency. We have ChatOps integration through Slack, where possible (e.g., [Heroku](https://devcenter.heroku.com/articles/chatops)).
 
-For projects under active development, we usually deploy daily. The most demanding deployments are on Phoenix, our main web app. This is a Drupal 7 app and a pain to test. We've automated much of the critical-path testing via Ghost Inspector, which reports results through Slack.
-
-In Slack, a Phoenix deployment looks like `@george deploy production v2.2.53`, so we can target version and environment.
-
-We use both Jenkins and Wercker for deploys. Jenkins is standard for the Phoenix deploys, Wercker for most other deploys.
+We use both Jenkins and Wercker for deploys. Jenkins is standard for the Phoenix deploys, Wercker for most other deploys. Heroku-hosted apps use the standard Heroku deployment workflow.
 
 ### Hosting infrastructure
 We host on AWS and Heroku.
 
-[TODO: This section needs updating!]
-
-#### AWS
-Most of our main environment, including our user-facing web apps, user and content APIs, and Quicksilver (messaging) architecture, is on Amazon.
+#### Amazon
+The bulk of our environment is hosted in AWS. We make heavy use of EC2, RDS, EBS, and S3.
 
 #### Heroku
-Several services, such as George/Hubot, and [Gambit](https://github.com/DoSomething/gambit), our messaging engine, are hosted on Heroku. It's easy, quick, and either cheap or free for us. It's a good hosting tool for quick hacks and prototypes, but can also scale for production.
+We run as much as we can on Heroku, because that environment puts devs in direct control of the deployment mechanism, and because we reduce our server footprint in AWS.
 
 ### Testing & monitoring
-We maintain quality with unit and functional testing, but we’re constantly trying to find better ways to test. We know that unit testing can suck/be impossible in some situations (e.g., Drupal), so we look for other ways, like Ghost Inspector. But we strongly prefer frameworks that make it easier to unit test.
+We maintain quality with unit and functional testing, and we’re constantly trying to find better ways to test. We strongly prefer frameworks, like Laravel, that have unit testing built in to their core.
 
 We monitor with New Relic, StatHat, Runscope, and Ghost Inspector. We centralize alerts and alerting policies in PagerDuty.
 
@@ -139,7 +145,9 @@ We believe in great documentation—not for documentation's sake, but to make on
 We document in code (doc blocks, etc.), and in Markdown Readme files in the source repos. Sometimes the project-level Readme is sufficient, but for [bigger projects](https://github.com/DoSomething/northstar/tree/dev/documentation) we'll break the docs into their own directory.
 
 ### Data collection
-[TK]
+We collect raw data in our [Quasar](https://github.com/DoSomething/quasar) warehouse; we prefer making apps push their events to the warehouse rather than writing ETL tools to scrape APIs.
+
+We use Looker to surface and explore data.
 
 ## Titles & career growth
 
