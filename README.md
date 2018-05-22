@@ -50,7 +50,7 @@ Furthermore, any behavior or language which is unwelcoming—whether or not it r
 There are a host of behaviors and language common on tech teams which are specifically unwelcome: Avoid “well, actuallys”—pedantic corrections that are often insulting and unproductive; make an effort not to interrupt your colleagues while they are speaking; never respond with surprise when someone asks for help; and take care neither to patronize your colleagues nor assume complete knowledge of a topic. This last point is especially important when talking about technical topics: Many women and people of color in the tech industry have many tales of being either [mansplained](https://www.guernicamag.com/daily/rebecca-solnit-men-explain-things-to-me/) about a field in which they are experts, or else excluded from learning opportunities because a colleague wouldn’t make an effort to answer questions. Don’t be that person! Remember, your colleagues may have expertise you are unaware of. Listen more than you speak.
 
 ## How we get work done
-All of our code is open source and on GitHub. We organize stories and plan sprints with Pivotal Tracker. Individual coding tasks are tracked as GitHub issues. We use pull requests to review and merge changes. Every PR is peer-reviewed.
+All of our code is open source and on GitHub. We organize stories and plan sprints with Pivotal Tracker, and maintain our roadmaps in Teamweek. Individual coding tasks are tracked as GitHub issues. We use pull requests to review and merge changes. Every PR is peer-reviewed. Please see here for an overview of our [Teams, Services, and Environments](http://docs.dosomething.org/engineering/overview).
 
 ### Code review and pull requests
 We work in branches, generally off of dev (or master, depending on the project). We commit often, to capture our thinking. We package up our work as pull requests, and try to keep PRs reasonably small. (This also makes it more likely someone will review your PR!)
@@ -167,7 +167,7 @@ It's possible to switch between management and technical track—there's not a r
 * [SE](Positions/SoftwareEngineer.md)
 * [SSE](Positions/SeniorSoftwareEngineer.md)
 * [Staff Engineer](Positions/StaffEngineer.md)
-* Technical Lead: _This is a role to play on a team, not a job title._ The technical lead serves as the engineering point person for a particular team, helps to define and delegate work, provide estimates, and make architectural decisions. Technical leads gather for a monthly architecture governance meeting, where they work together on systems integration and other high-level topics. Technical leads do not manage the other engineers' careers, only their work.
+* [Technical Lead](Positions/Roles/TechTeamLead.md): This is a role to play on a team, not a job title. The tech team lead serves as the engineering point person for a particular team, helps to define and delegate work, provide estimates, and make architectural decisions. Tech team leads do not manage the other engineers' careers, only their work. There is another version of this role that is technical only (does not involve leading a team), meaning that the engineer is responsible for leading, designing, and serving as the main maintainer of a large project/application/service. There is overlap in responsibilities at a high level. Technical leads gather for a monthly architecture governance meeting, where they work together on systems integration and other high-level topics. 
 
 #### Engineering Management track
 
