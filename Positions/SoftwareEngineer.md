@@ -1,40 +1,42 @@
-### What does "Software Engineer" mean?
+## Software Engineer (SE)
 
-N.b. Not every single one of these criteria needs to be satisfied to be considered a full SE. But the role comprises, in some combination or other, the majority of these.
+_Not every single one of these criteria needs to be satisfied to be considered a full SE. But the role comprises, in some combination or other, the majority of these._
 
-### Deep knowledge of a primary platform
-- Web: must include Drupal; Mobile: must include SMS apps
-- May have a specialty: systems integration, presentation layer
-- Knowledge of best practices: coding standards, core architecture, documentation, automated testing, debugging
-- Ability to use existing tools and components, and to conduct independent research on new options
-- Understanding of our production deployment for the role's primary platform (examples: Drupal, Laravel, SMS games): You should be able to sketch out something fairly accurate on a white board.
+Grading scale for each section uses the following:
 
+- Needs Opportunity
+- Needs Significant Work
+- Basic
+- Good
+- Great
+- Expert
 
-### Technical collaboration
-- Regular consultation with other developers on architecture, best practices, documentation
-- Mentor relationship with JSEs and interns
-- In addition to being self-sufficient on primary platform, capable of providing support in at least one other system/area
-- Capable of prioritizing tasks and making progress without constant significant feedback from more senior engineers
+### Technical Skill/Knowledge
+- Able to own small- to medium-sized features from technical design through completion
+- Able to break down requirements into implementation strategy 
+- Gaining knowledge of best practices: coding standards, core architecture, documentation, automated testing, debugging
+- Proficient with git
+- Experienced with automated testing (unit, integration) and contributes to test coverage for primary platform(s) managed by team
+- Begins to focus on attaining expertise in one or more areas (eg, JS, messaging, Laravel, etc)
+- Comfortable designing data structures and schemas
+- Proficient with SQL
 
-### Automated testing
-- Facility with unit and end-to-end testing
-- Contributions to test coverage on your primary platform
+### Impact
+- Capable of prioritizing tasks and makes progress without significant feedback from more senior engineers
+- Knows when to ask for help in order to get themselves unblocked and avoids getting caught up in unimportant details
+- Gaining experience in breaking down tasks, planning, and cutting unnecessary scope to achieve goals within a reasonable timeframe
+- Able to effectively estimate work
+- Comfortable making performance, stability, scalability, monitoring, and DevOps improvements
+- Self-sufficient in at least one large area of the codebase with a high level understanding of other components in the system"
 
-### Architectural contributions
-- Familiarity with our JavaScript, Drupal, Laravel, Neue, SMS frameworks
-- Contributions to a framework or development practice: You have enough experience here to have a point of view, and can argue for systemic improvements
-- Commits to our open-source libraries
+### Communication
+- Clearly and effectively communicates with colleagues (across all mediums: PRs, Slack, email, in-person/video chat, etc)
+- Can clearly communicate technical information in a non technical manner
+- Gives timely, helpful feedback to peers and offers guidance in PRs 
+- Asks productive questions to thoroughly understand requirements / user stories
+- Can identify contradictory requirements and suggest resolutions
+- Creates clear and concise sets of documentation around projects worked on for technical and non-technical audiences.
 
-### FRONT-END: JavaScript requirements
-- Test coverage
-- Contributions to JS architecture
-
-### BACK-END: Systems integration requirements
-- Demonstrated ability to integrate with external APIs
-
-### MOBILE: Requirements
-- Contributions to multiple aspects of the mobile ecosystem
-- SMS games, SMS staff pick campaigns, mobile apps
-- Demonstrated ability to add features that are performant on the scale of users (2.5+ million) that we message with
-- Contributions to suite of automated tests
-- Knowledge of the available debugging and monitoring tools
+### Leadership
+- Comfortable with sharing knowledge with other engineers (for example, at Dev Round Tables)
+- Can conceive of and implement significant improvements to the codebase"
