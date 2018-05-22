@@ -59,7 +59,7 @@ Grading scale for each section uses the following:
 ---
 
 ### Additional Tech Lead Role Responsibilities
-There are additional responsibilities for an SSE who has an additional tech lead (technical and/or team) role. The [Technical Lead](Positions/Roles/TechTeamLead.md) description provides further details on the overall responsibilities of this role. The following outlines responsibilities for the tech lead role using the same categories as above:
+There are additional responsibilities for an SSE who has an additional tech lead (technical and/or team) role. The [Technical Lead](Roles/TechLead.md) description provides further details on the overall responsibilities of this role. The following outlines responsibilities for the tech lead role using the same categories as above:
 
 ### Technical Skill/Knowledge
 
