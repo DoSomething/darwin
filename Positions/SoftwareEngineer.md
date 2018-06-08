@@ -27,16 +27,16 @@ Grading scale for each section uses the following:
 - Gaining experience in breaking down tasks, planning, and cutting unnecessary scope to achieve goals within a reasonable timeframe
 - Able to effectively estimate work
 - Comfortable making performance, stability, scalability, monitoring, and DevOps improvements
-- Self-sufficient in at least one large area of the codebase with a high level understanding of other components in the system"
+- Self-sufficient in at least one large area of the codebase with a high level understanding of other components in the system
 
 ### Communication
 - Clearly and effectively communicates with colleagues (across all mediums: PRs, Slack, email, in-person/video chat, etc)
-- Can clearly communicate technical information in a non technical manner
+- Can clearly communicate technical information in a non-technical manner
 - Gives timely, helpful feedback to peers and offers guidance in PRs 
 - Asks productive questions to thoroughly understand requirements / user stories
 - Can identify contradictory requirements and suggest resolutions
-- Creates clear and concise sets of documentation around projects worked on for technical and non-technical audiences.
+- Creates clear and concise sets of documentation around projects worked on for technical and non-technical audiences
 
 ### Leadership
-- Comfortable with sharing knowledge with other engineers (for example, at Dev Round Tables)
-- Can conceive of and implement significant improvements to the codebase"
+- Comfortable with sharing knowledge with other engineers (for example, at Dev Roundtables)
+- Can conceive of and implement significant improvements to the codebase
