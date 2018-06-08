@@ -169,6 +169,8 @@ It's possible to switch between management and technical track—there's not a r
 * [Staff Engineer](Positions/StaffEngineer.md)
 * [Technical Lead](Positions/Roles/TechTeamLead.md): This is a role to play on a team, not a job title. The tech team lead serves as the engineering point person for a particular team, helps to define and delegate work, provide estimates, and make architectural decisions. Tech team leads do not manage the other engineers' careers, only their work. There is another version of this role that is technical only (does not involve leading a team), meaning that the engineer is responsible for leading, designing, and serving as the main maintainer of a large project/application/service. There is overlap in responsibilities at a high level. Technical leads gather for a monthly architecture governance meeting, where they work together on systems integration and other high-level topics. 
 
+More information on the roles and responsibilities can be viewed either as a grid [here](https://docs.google.com/spreadsheets/d/1c0Ags_6-aJEEBuMC46pw5hshsmOD20IKuhPjigBbcSM/edit?usp=sharing) or on the different position pages linked to above.
+
 #### Engineering Management track
 
 _We don’t have people in all of these positions, but this is still the progression._
