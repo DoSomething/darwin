@@ -13,7 +13,7 @@ Grading scale for each section uses the following:
 
 ### Technical Skill/Knowledge
 - Broad knowledge of CS concepts, with familiarity with at least one backend language
-- Has working knowledge of JavaScript.
+- Has working knowledge of JavaScript
 - Has worked with RESTful APIs
 - Recognizes and advocates for clean code
 - Code is well tested, well documented & verified after deployments
