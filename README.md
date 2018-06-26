@@ -22,7 +22,7 @@ While most people are in the New York office, not everyone is, and most people w
 
 Be courteous in communications: The opportunity for misunderstanding is greater with online interactions. Ask if you’re missing some important information. Use emoji. Give context. Read what other people have said before hitting send on your message. Slack is instant, but that doesn't mean you have to reply in an instant.
 
-We encourage feedback in all directions, it makes us better. The sooner you're able to provide feedback the better. Within 48 hours is generally a good rule of thumb. A favorite structure for providing feedback is SBI:
+We encourage feedback in all directions, because it helps us improve. The sooner you're able to provide feedback the better. Within 48 hours is generally a good rule of thumb. A favorite structure for providing feedback is SBI:
 
 * Situation
 * Behavior
