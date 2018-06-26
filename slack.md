@@ -1,6 +1,6 @@
 # Slack Setup
 - Set up your app 
- - You can visit the webclient or [download the app](https://slack.com/downloads)
+ - You can visit the web client or [download the app](https://slack.com/downloads)
 - Enable 🔐[2-factor auth](https://slack.zendesk.com/hc/en-us/articles/204509068-Enabling-two-factor-authentication)
 - Fill out your 🔐[profile](https://dosomething.slack.com/account/profile)
  - Consider adding your pronouns to the last name field so it's visible
@@ -42,7 +42,7 @@ We use emoji reactions to send follow up messages. Here are our most frequent:
 - ✅ - `:check:` I did that 
 - ➕ - `:plus:` I agree
 - 🙇 - `:bow:` thanks!
-- 🐧 - `:penguin` A stuffed animal given at the end of staff meeting from the reigning holder to another staff member who did a baller job that week.
+- 🐧 - `:penguin:` A stuffed animal given at the end of staff meeting from the reigning holder to another staff member who did a baller job that week.
 
 ## Bots 
 - 🔐[Slackbot](https://dosomething.slack.com/customize/slackbot): Just a pal that Slack gives us for free, we can customize to respond to certain phrases 
