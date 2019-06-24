@@ -1,4 +1,4 @@
-## DoSomething.org Core Values
+# DoSomething.org Core Values
 
 Every member of DoSomething.org's staff adheres to the following core values:
 
@@ -13,3 +13,4 @@ Every member of DoSomething.org's staff adheres to the following core values:
 9. Data-informed
 10. We’ll never have all the answers but we’re curious to get them
 11. Live and promote our culture of diversity & inclusion
+
