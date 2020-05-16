@@ -103,7 +103,7 @@ Sharing the responsibility for our work extends to ticket management as well. If
 #### Pivotal Tracker
 The following outlines the stages of a ticket in Pivotal Tracker. The buttons on a ticket are _Start_, _Finish_, _Deliver_, _Accept_ OR _Reject_, and they will transition a ticket within the different stages.
 
-### ⭐️ Feature OR 🐞 Bug Ticket
+##### ⭐️ Feature OR 🐞 Bug Ticket
 1. **Planned**: Ready for current iteration (also estimated if a Feature ticket).
 2. **Unstarted**: No work has begun to address the ticket.
 3. **Started**: Work has begun to address the ticket. In order to start the ticket, it must be estimated first.
@@ -113,7 +113,7 @@ The following outlines the stages of a ticket in Pivotal Tracker. The buttons on
 6. **Rejected**: Reviewer (product manager or tech lead) has reviewed the work to address ticket and rejected it.
 7. **Accepted**: Reviewer (product manager or tech lead) has reviewed the work to address ticket and accepted it.
 
-### ⚙️ Chore Ticket
+##### ⚙️ Chore Ticket
 1. **Planned**: Ready for current iteration.
 2. **Unstarted**: No work has begun to address the ticket.
 3. **Started**: Work has begun to address the ticket.
