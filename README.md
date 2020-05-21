@@ -2,6 +2,28 @@
 
 This is our working manifesto, which we keep as a public document. It has details specific to the product, engineering, and data teams, but a lot of it is just about how to work together effectively and bring out the best in each other.
 
+1. [The Basics](#the-basics)
+    1. [Everything is an Experiment](#everything-is-an-experiment)
+    2. [Diversity](#diversity)
+    3. [Trust](#trust)
+    4. [Communication](#communication)
+    5. [Collaboration](#collaboration)
+    6. [Unacceptable Behaviors](#unacceptable-behaviors)
+2. [How We Get Work Done](#how-we-get-work-done)
+    1. [Sprints](#sprints)
+    2. [Ticket Management](#ticket-management)
+    3. [Code Review and Pull Requests](#code-review-and-pull-requests)
+    4. [Quality Assurance](#quality-assurance)
+    5. [API Design](#api-design)
+    6. [DevOps](#devops)
+    7. [Deployments](#deployments)
+    8. [Hosting Infrastructure](#hosting-infrastructure)
+    9. [Testing and Monitoring](#testing-and-monitoring)
+    10. [Documentation](#documentation)
+    11. [Data Collection and Management](#data-collection-and-Management)
+3. [Titles and Career Growth](#titles-and-career-growth)
+
+
 ## The Basics
 
 Each member of the team is responsible for making this a great place to work, and for maximizing the power of technology to realize DoSomething's vision: the most young people doing the most good.
@@ -62,6 +84,8 @@ This goes both ways: when explaining something make sure to present enough conte
 
 We also share responsibility for our work. At Facebook, they say that ["Nothing at Facebook is someone else's problem."](https://medium.com/facebook-design/how-we-changed-the-facebook-friends-icon-dc8526ea9ea8#.tjb5mkj4u) We try to live that—our version is, “It’s everybody’s site.” The products and experiences we create are a direct reflection of the structure of our teams, how we communicate, and what we value.
 
+We value pair programming as a great option to accelerate knowledge-sharing and on-boarding, and to work through difficult and/or unfamiliar problem spaces. As the proverb goes, "A problem shared, is a problem halved."
+
 ### Unacceptable Behaviors
 
 _Stolen and hardly adapted from_ [_Vox_](http://code-of-conduct.voxmedia.com/)
@@ -88,9 +112,9 @@ Our sprints are 2 weeks long. We have the following meetings:
 
 _**Another regular meeting to note:** We typically have a brown bag lunch meeting on Wednesdays at noon. It is called Dev Roundtable. These meetings are typically technical and can involve technical demos/presentations, working sessions, or discussions._
 
-Sprints should not be booked more than **75% full**. This gives buffer for sick time, unplanned work, work that was underestimated at the start of the sprint, and breathing room for individual professional development. Additionally, a minimum 3 points of sustaining engineering work should be tackled every sprint. If a team is experiencing sprint rollover, they should step back, and re-evaluate their sprint planning strategy. Sprint rollover should be the exception not the rule.
+Sprints should not be booked more than **75% full**. This gives buffer for sick time, unplanned work, work that was underestimated at the start of the sprint, and breathing room for individual professional development. Additionally, a minimum of 3 points of sustaining engineering work should be tackled every sprint. If a team is experiencing sprint rollover, they should step back, and re-evaluate their sprint planning strategy. Sprint rollover should be the exception not the rule.
 
-Additionally, we record best practices as it relates to groom and sprint planning in our [Sprint learnings document](https://docs.google.com/document/d/1SiRF0R73Tg0IBHHCzX5PWAfyXF_Q9TUogxxOyxR-pAM/edit#heading=h.r7t77g3jnbng).
+Additionally, we record best practices as it relates to groom and sprint planning in a Sprint learnings document.
 
 ### Ticket Management
 
@@ -100,28 +124,32 @@ Additionally when a ticket is ready for Quality Assurance (QA), notes on how to 
 
 Sharing the responsibility for our work extends to ticket management as well. If you see that there's an issue that needs to be captured in a ticket, make the ticket. If you *truly* don't have time to do this, ask your team for help. 
 
+For urgent incidents, we follow the guidelines in our [Incident Playbook](https://github.com/DoSomething/communal-docs/tree/master/Incidents). Depending on the timeline for resolution, a ticket may be created to track progress, and if the timeline goes beyond one day, a daily slack standup thread is used to communicate status in addition to keeping the ticket up to date.
+
 #### Pivotal Tracker
 The following outlines the stages of a ticket in Pivotal Tracker. The buttons on a ticket are _Start_, _Finish_, _Deliver_, _Accept_ OR _Reject_, and they will transition a ticket within the different stages.
 
 ##### ⭐️ Feature OR 🐞 Bug Ticket
-1. **Planned**: Ready for current iteration (also estimated if a Feature ticket).
-2. **Unstarted**: No work has begun to address the ticket.
-3. **Started**: Work has begun to address the ticket. In order to start the ticket, it must be estimated first.
-4. **Finished**: Work to address ticket is completed. A pull request has been submitted and is awaiting review.
-5. **Delivered**: The pull request has been merged and deployed to a QA environment. The developer has verified their work on this environment and added QA / testing notes to the ticket. At this stage, there will be review by Product, Design, and/or Data. Just as we expect developers to keep their ticket statuses up to date, we expect the same from Reviewers (Unstarted, In Review, Pass, or Revise).
-![Review States on a ticket](./assets/reviewStates.png). 
-6. **Rejected**: Reviewer (product manager or tech lead) has reviewed the work to address ticket and rejected it.
-7. **Accepted**: Reviewer (product manager or tech lead) has reviewed the work to address ticket and accepted it.
+* **Planned**: Ready for current iteration (also estimated if a Feature ticket).
+* **Unstarted**: No work has begun to address the ticket.
+* **Started**: Work has begun to address the ticket. In order to start the ticket, it must be estimated first.
+* **Finished**: Work to address ticket is completed. A pull request has been submitted and is awaiting review.
+* **Delivered**: The pull request has been merged and deployed to a QA environment. The developer has verified their work on this environment and added QA / testing notes to the ticket. At this stage, there will be review by Product, Design, and/or Data. The developer should @ mention any reviewers to make sure they're aware that the feature is ready for QA. Just as we expect developers to keep their ticket statuses up to date, we expect the same from Reviewers (Unstarted, In Review, Pass, or Revise). If the QA requires cross-team coordination or is particularly involved (e.g., lots of screenshots, states and verifications of outcomes), it is best to QA in a Slack thread (and link the thread in the ticket).
+
+![Review States on a ticket](./assets/reviewStates.png)
+
+* **Rejected**: Reviewer (product manager or tech lead) has reviewed the work to address ticket and rejected it.
+* **Accepted**: Reviewer (product manager or tech lead) has reviewed the work to address ticket and accepted it.
 
 ##### ⚙️ Chore Ticket
-1. **Planned**: Ready for current iteration.
-2. **Unstarted**: No work has begun to address the ticket.
-3. **Started**: Work has begun to address the ticket.
-4. **Accepted**: Work to address ticket is completed, pull request was submitted, reviewed and merged.
+* **Planned**: Ready for current iteration.
+* **Unstarted**: No work has begun to address the ticket.
+* **Started**: Work has begun to address the ticket.
+* **Accepted**: Work to address ticket is completed, pull request was submitted, reviewed and merged.
 
 ### Code Review and Pull Requests
 
-We prefer code that's more readable and easier to understand over code that's concise or obfuscated. We strive to use the most understandable variable names in their respective context, and even favor longer, easier to understand variable names over abbreviated ones.
+We prefer simple, logic based project structures. We prefer code that's more readable and easier to understand over code that's concise or obfuscated. We strive to use conceptual naming conventions over point-in-time references, and even favor longer, easier to understand variable names over abbreviated ones. 
 
 We also prefer DRY code, and favor small, single purpose functions over long functions that try to do too much.
 
@@ -147,7 +175,7 @@ A teammate must review your PR, get their questions answered, and give a +1 as a
 * If you see multiple examples of the same thing (spelling, caps) don't comment every time, rather make one comment saying you noticed it throughout.
 * Give full context for your comments, so they don’t read as arbitrary.
 * If you see a code smell, point them to the [prescription](https://sourcemaking.com/refactoring/smells).
-* Use PRs as a learning opportunity - ask questions to learn more even if you don't have specific feedback on the work itself.
+* Use PRs as a learning opportunity - ask questions to learn more even if you don't have specific feedback on the work itself. If you see that there's confusion / back and forth on an issue/set of issues, that could be an indication that a Dev Roundtable on the topic should be scheduled - propose the topic so that it can be scheduled and organized!
 
 #### What Should the Reviewer Look for?
 
@@ -168,7 +196,7 @@ When merging PRs, make sure to use the "Squash and merge" options so that all co
 
 After merging a PR, please make sure to delete the branch so that they are cleared from the list of branches for the repository.
 
-### Quality Assurance (QA)
+### Quality Assurance
 
 #### Design QA
 Generally it takes at least a day to complete Design QA. It is important to note that Design QA is non-blocking for a deploy to Production. However, Design QA review blocks closing the ticket.
@@ -233,11 +261,11 @@ We run as much as we can on Heroku, because that environment puts devs in direct
 
 The remainder of our environment is hosted in AWS. We make heavy use of EC2, RDS, EBS, and S3.
 
-### Testing & Monitoring
+### Testing and Monitoring
 
-We maintain quality with unit and functional testing, and we’re constantly trying to find better ways to test. We strongly prefer frameworks, like Laravel, that have unit testing built in to their core.
+We maintain quality with [unit and functional testing](https://github.com/DoSomething/rfcs/blob/master/004-testing.md), and we’re constantly trying to find better ways to test. We strongly prefer frameworks, like Laravel, that have unit testing built in to their core.
 
-We [monitor](https://github.com/DoSomething/communal-docs/tree/master/Monitoring) with New Relic, StatHat, [Runscope, and Ghost Inspector](https://github.com/DoSomething/communal-docs/tree/master/Automated%20Tests). We centralize alerts and alerting policies in PagerDuty. We have an [Incident Playbook](https://github.com/DoSomething/communal-docs/tree/master/Incidents) and we document common issues we might see for a given service.
+We [monitor](https://github.com/DoSomething/communal-docs/tree/master/Monitoring) with New Relic, StatHat, [Runscope, and Ghost Inspector](https://github.com/DoSomething/communal-docs/tree/master/Automated%20Tests). We centralize alerts and alerting policies in PagerDuty, and maintain an [on-call rotation](https://github.com/DoSomething/rfcs/blob/master/007-on-call.md). We have an [Incident Playbook](https://github.com/DoSomething/communal-docs/tree/master/Incidents) and we document common issues we might see for a given service.
 
 Every Wednesday of the month we hold a Post-mortem / Incident review meeting. Tech leads are responsible for creating the tickets generated from the meeting (if they don't exist already) and following up with Product Managers to discuss prioritization. These tickets are placed in the Collective Freezer Pivotal Tracker board. At the start of the meeeting, we review tickets, followup items from the previous month, and discuss the incidents that have occurred.
 
@@ -247,13 +275,13 @@ We believe in great documentation — not for documentation sake, but to make on
 
 We document in code \(doc blocks, etc.\), and in Markdown Readme files in the source repos. Sometimes the project-level Readme is sufficient, but for [bigger projects](https://github.com/DoSomething/northstar/tree/dev/documentation) we'll break the docs into their own directory.
 
-### Data Collection
+### Data Collection and Management
 
-We collect raw data in our [Quasar](https://github.com/DoSomething/quasar) warehouse; we prefer making apps push their events to the warehouse rather than writing ETL tools to scrape APIs.
+We collect raw data in [our warehouse](https://github.com/DoSomething/quasar) and transform data in [DBT](https://github.com/fishtown-analytics/dbt); we prefer making apps push their events to the warehouse rather than writing ETL tools to scrape APIs and we prefer a layered (hierarchical) data model approach to a flat design to ensure endpoints are comprehensible by end users.
 
 We use Looker to surface and explore data.
 
-## Titles & Career Growth
+## Titles and Career Growth
 
 We have a standard set of position levels across the organization:
 
@@ -285,4 +313,3 @@ _We don’t have people in all of these positions, but this is the progression._
 * [Director of Engineering](positions/director-of-engineering.md)
 * [VP of Engineering](positions/vp-of-engineering.md)
 * [CTO](positions/cto.md)
-
