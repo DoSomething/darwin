@@ -12,17 +12,43 @@
 
 ## Tips, Tricks & Etiquette
 
-**Use 🔐**[**\#announce**](https://dosomething.slack.com/archives/announce) **for important company announcements.**  
+**Use 🔐[#announce](https://dosomething.slack.com/archives/announce) for important company announcements.**  
 This should only be for general DS company wide announcements.
 
-**Use 🔐\#announce-tech for important product/engineering/data-related announcements.**  
+**Use 🔐[#announce-tech](https://dosomething.slack.com/archives/announce-tech) for important product/engineering/data-related announcements.**  
 This should be used for any technical announcements to the product, engineering, and/or data teams.
 
-**Use 🔐\#announce-office for NYC office-related chatter.**  
+**Use 🔐[#announce-office](https://dosomething.slack.com/archives/announce-office) for NYC office-related chatter.**  
 This can be used for office related chatter like notifying folks that there's food in the kitchen.
+
+#### Other Notable Channels
+##### Team Channels
+- **🔐[#team-applications](https://dosomething.slack.com/archives/team-applications)**: Application team discussions
+- **🔐[#team-platforms](https://dosomething.slack.com/archives/team-platforms)**: Platform team discussions
+- **🔐[#team-tech-leads](https://dosomething.slack.com/archives/team-tech-leads)**: Tech lead / senior engineer architectural discussions
+
+##### Dev Channels
+- **🔐[#blink](https://dosomething.slack.com/archives/blink)**: Notifications for our message broker, Blink
+- **🔐[#deploys](https://dosomething.slack.com/archives/deploys)**: Deploys, alerting, & configuration changes
+- **🔐[#dev-applications](https://dosomething.slack.com/archives/dev-applications)**: Discussions about Chompy, Forge, GraphQL, Northstar, Phoenix, Rogue
+- **🔐[#dev-gambit](https://dosomething.slack.com/archives/dev-gambit)**: Notifications for our chatbot, Gambit
+- **🔐[#dev-infrastructure](https://dosomething.slack.com/archives/dev-infrastructure)**: Notifications and discussions as it relates to our infrastructure
+- **🔐[#notify-applications](https://dosomething.slack.com/archives/notify-applications)**: Notifications about Chompy, Forge, GraphQL, Northstar, Phoenix, Rogue
+
+##### Help Channels
+- **🔐[#help-data](https://dosomething.slack.com/archives/help-data)**: Help channel on data and Looker questions
+- **🔐[#help-it](https://dosomething.slack.com/archives/help-it)**: Help channel on IT questions
+- **🔐[#help-product](https://dosomething.slack.com/archives/help-product)**: Help channel on Product-related questions
+
+##### Other Channels
+- **🔐[#topic-security](https://dosomething.slack.com/archives/topic-security)**: Discussions on Web and IT security
+- **🔐[#etc-code-lounge](https://dosomething.slack.com/archives/etc-code-lounge)**: Discussions on a variety of software engineering topics
 
 **Use public rooms!**  
 We work in a collaborative environment, and we should keep the history so it's searchable forever!
+
+**DMs**  
+If you're DM’ing for help/questions, *please stop doing this* and move your query to a public channel. If someone DM’s you and the topic is not private, stop and move the discussion to a public channel. What you're discussing might be really helpful to someone else on the team or provide transparency/visibility.
 
 **Feel free join and leave channels.**  
 👋 You can `/mute` 🔕 channels \(so you only receive messages when your name or `@channel` is mentioned\) or leave channels if they become overwhelming.
@@ -58,9 +84,8 @@ After 3 months at DoSomething we will make an emoji of your face. We use emoji r
 ## Bots
 
 * 🔐[Slackbot](https://dosomething.slack.com/customize/slackbot): Just a pal that Slack gives us for free, we can customize to respond to certain phrases 
-* 🔐[George](https://github.com/DoSomething/hubot-george): Custom bot that we use to deploy code, and displays silly messages if you say "dance" 
 
 ## Questions?
 
-Ask in 🔐[`#help-it`](https://dosomething.slack.com/archives/help-it)\`\`
+Ask in 🔐[#help-it](https://dosomething.slack.com/archives/help-it)
 
