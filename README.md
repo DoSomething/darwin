@@ -116,6 +116,8 @@ _**Another regular meeting to note:** We typically have a brown bag lunch meetin
 
 Sprints should not be booked more than **75% full**. This gives buffer for sick time, unplanned work, work that was underestimated at the start of the sprint, and breathing room for individual professional development. Additionally, a minimum of 3 points of sustaining engineering work should be tackled every sprint. If a team is experiencing sprint rollover, they should step back, and re-evaluate their sprint planning strategy. Sprint rollover should be the exception not the rule.
 
+Once per quarter, we try to have a clean-up sprint, where we tackle technical, design, and documentation debt, as well as other changes we think are important but have had trouble getting to. During clean-up sprint, we dedicate one day to just documentation.
+
 Additionally, we record best practices as it relates to groom and sprint planning in a Sprint learnings document.
 
 ### Ticket Management
