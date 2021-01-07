@@ -255,7 +255,9 @@ Some apps may also require the following support:
 
 We deploy as often as we can, and look for ways to increase the frequency. We have ChatOps integration through Slack, where possible (e.g., [Heroku](https://devcenter.heroku.com/articles/chatops)).
 
-We use both Jenkins and Wercker for deploys. Wercker is standard for most deploys. Heroku-hosted apps use the standard Heroku deployment workflow.
+Most of our apps are hosted on Heroku and use the [standard Heroku deployment workflow](https://devcenter.heroku.com/articles/pipelines#promoting). A few other apps use CircleCI.
+
+In Slack, we have daily reminders to deploy a few of our apps to make sure we don't go too long without deploying and end up with too many changes getting deployed all at once. Additionally, engineers can deploy their own changes once their QA is done. This is encouraged because it allows us to deploy changes in smaller chunks. For some apps, we require Ghost Inspector tests to be run on QA before deploying to production to make sure all is well. Other apps may also require Ghost Inspector to be run on production immediately following a deploy, and these instructions can be found in the daily reminders for each app.
 
 ### Hosting Infrastructure
 
