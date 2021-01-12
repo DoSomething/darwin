@@ -3,26 +3,25 @@
 This is our working manifesto, which we keep as a public document. It has details specific to the product, engineering, and data teams, but a lot of it is just about how to work together effectively and bring out the best in each other.
 
 1. [The Basics](#the-basics)
-    1. [Everything is an Experiment](#everything-is-an-experiment)
-    2. [Diversity](#diversity)
-    3. [Trust](#trust)
-    4. [Communication](#communication)
-    5. [Collaboration](#collaboration)
-    6. [Unacceptable Behaviors](#unacceptable-behaviors)
+   1. [Everything is an Experiment](#everything-is-an-experiment)
+   2. [Diversity](#diversity)
+   3. [Trust](#trust)
+   4. [Communication](#communication)
+   5. [Collaboration](#collaboration)
+   6. [Unacceptable Behaviors](#unacceptable-behaviors)
 2. [How We Get Work Done](#how-we-get-work-done)
-    1. [Sprints](#sprints)
-    2. [Ticket Management](#ticket-management)
-    3. [Code Review and Pull Requests](#code-review-and-pull-requests)
-    4. [Quality Assurance](#quality-assurance)
-    5. [API Design](#api-design)
-    6. [DevOps](#devops)
-    7. [Deployments](#deployments)
-    8. [Hosting Infrastructure](#hosting-infrastructure)
-    9. [Testing and Monitoring](#testing-and-monitoring)
-    10. [Documentation](#documentation)
-    11. [Data Collection and Management](#data-collection-and-Management)
+   1. [Sprints](#sprints)
+   2. [Ticket Management](#ticket-management)
+   3. [Code Review and Pull Requests](#code-review-and-pull-requests)
+   4. [Quality Assurance](#quality-assurance)
+   5. [API Design](#api-design)
+   6. [DevOps](#devops)
+   7. [Deployments](#deployments)
+   8. [Hosting Infrastructure](#hosting-infrastructure)
+   9. [Testing and Monitoring](#testing-and-monitoring)
+   10. [Documentation](#documentation)
+   11. [Data Collection and Management](#data-collection-and-Management)
 3. [Titles and Career Growth](#titles-and-career-growth)
-
 
 ## The Basics
 
@@ -43,7 +42,8 @@ We know that our diversity — of gender identity, ethnicity, race, sexual orien
 As Google’s [Project Aristotle](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html) shows, we succeed only when we trust one another. We understand that no one on the team is perfect. When you make a mistake, own up to it and learn from it. Trust is formed by growing and learning from mistakes as a team.
 
 ### Communication
-While most people are in the New York office, not everyone is, and most people work remotely at least some of the time every week. Communication and documentation are crucial. Make liberal use of the tools we use to include everyone in the conversation: Slack, video chat, Google Drive and Calendar, Pivotal Tracker, and GitHub. 
+
+While most people are in the New York office, not everyone is, and most people work remotely at least some of the time every week. Communication and documentation are crucial. Make liberal use of the tools we use to include everyone in the conversation: Slack, video chat, Google Drive and Calendar, Pivotal Tracker, and GitHub.
 
 The rule of thumb should be to err on overcommunication: No one, technical or non-technical, should wonder what Person A is working on or if they are stuck, or the outcome of a meeting.
 
@@ -52,25 +52,28 @@ This is especially important when determining what is appropriate for a private 
 Flag issues as soon they come up. If something’s unclear, requirements are incomplete, a suggested approach is causing a headache, etc, discuss what you're unclear about or having trouble with in a public space (Slack, Pivotal ticket, Pull Request).
 
 #### Documentation of Discussions
+
 If a topic is involving a lot of back and forth (> 5 comments) in Slack, a PR, or a ticket, move it to a video call or an in-person meeting. Always document the outcome of the call or in-person discussion.
 
 It is best practice to nominate someone to be in charge of recapping a meeting. The resulting documentation can live in a recap email, a comment in a Slack channel, an update in a Pivotal Tracker ticket, or in a Google document, depending on what is appropriate for that conversation.
 
 #### Courtesy & Respect
+
 Be courteous in communications: The opportunity for misunderstanding is greater with online interactions. Ask if you’re missing some important information. Use emoji. Give context. Read what other people have said before hitting send on your message. Slack is instant, but that doesn't mean you have to reply in an instant.
 
-We have a daily standup thread in [#announce-tech](https://dosomething.slack.com/archives/announce-tech) for our entire team. We expect that everyone posts their standup notes (what was worked on yesterday/what is being  worked on today, and any blockers or other notes) at the start of their day.
+We have a daily standup thread in [#announce-tech](https://dosomething.slack.com/archives/announce-tech) for our entire team. We expect that everyone posts their standup notes (what was worked on yesterday/what is being worked on today, and any blockers or other notes) at the start of their day.
 
 If you are going to be out of office (scheduled), please give your team a heads up about this in your team channel after your scheduled time is approved by your manager. Place an OOO block on your calendar. Remind folks in the daily standup thread in [#announce-tech](https://dosomething.slack.com/archives/announce-tech) of your absence at least the day before you're out.
 
 If you’re going to be OOO for a short time during business hours (like for a dr’s appt, etc), put a block on your calendar, and note this in your team channel the day of.
 
 #### Feedback
+
 We encourage feedback in all directions, because it helps us improve. The sooner you're able to provide feedback the better. Within 48 hours is generally a good rule of thumb. A favorite structure for providing feedback is SBI:
 
-* Situation
-* Behavior
-* Impact
+- Situation
+- Behavior
+- Impact
 
 Check out this [10 minute guide](https://www.mindtools.com/blog/corporate/wp-content/uploads/sites/2/2014/05/SBI-Feedback-Tool.pdf) for more on SBI.
 
@@ -100,13 +103,12 @@ There are a host of behaviors and language common on tech teams which are specif
 
 All of our code is open source and on GitHub. We organize stories and plan sprints with Pivotal Tracker, and maintain our roadmaps in Google Spreadsheets . Individual coding tasks are tracked as Pivotal cards. We use pull requests to review and merge changes. Every PR is peer-reviewed. Please see here for an overview of our [Teams, Services, and Environments](http://docs.dosomething.org/engineering/overview). We communicate on Slack and have [guidelines for this communication](slack.md).
 
-
 ### Sprints
 
 Our sprints are 2 weeks long. We have the following meetings:
 
-- **Sprint Planning**: Individual teams hold sprint planning meetings at the start of the sprint. Work is estimated, tickets are assigned, and the team determines how much they can commit to completing. Everyone is expected to review potential upcoming work prior to sprint planning in order to estimate and discuss the work effectively.  
-- **Mega-groom**: The full team meets to discuss work for the upcoming sprint. This is scheduled the week before sprint planning. The meeting has an agenda that is both created by both product managers and tech leads. In addition to providing visibility into upcoming work cross-team, approach and open questions are discussed at a high level. Everyone should review this document prior to the meeting so they can come prepared to discuss the work.
+- **Sprint Planning**: Individual teams hold sprint planning meetings at the start of the sprint. Work is estimated, tickets are assigned, and the team determines how much they can commit to completing. Everyone is expected to review potential upcoming work prior to sprint planning in order to estimate and discuss the work effectively.
+- **Mega-groom**: The full team meets to discuss work for the upcoming sprint. This is scheduled the week before sprint planning. The meeting has an agenda that is created by both product managers and tech leads. In addition to providing visibility into upcoming work cross-team, approach and open questions are discussed at a high level. Everyone should review this document prior to the meeting so they can come prepared to discuss the work.
 - **Sprint Demos**: Near the end of the sprint on Thursday afternoons, members volunteer to demo what they've worked on. This meeting involves the full team and optionally other department members. Demos should not be overly long or technical as the audience of demos involves non-technical folks. If a deep dive or longer technical demo is desired, we can use the following week's Dev Roundtable (see below about Dev Roundtables) slot.
 - **Sprint Retro**: Immediately following demos, we meet to discuss What Went Well, What to To Improve, and Other Discussion Topics. We hold an all-teams retro, which is great for general culture, surfacing larger questions or issues, and providing full team updates. We also typically celebrate a person who’s been a Goddamn Champion (GDC) in having a positive impact through their work over the past sprint. The GDC winner receives a $25 gift card.
 
@@ -114,42 +116,47 @@ _**Another regular meeting to note:** We typically have a brown bag lunch meetin
 
 Sprints should not be booked more than **75% full**. This gives buffer for sick time, unplanned work, work that was underestimated at the start of the sprint, and breathing room for individual professional development. Additionally, a minimum of 3 points of sustaining engineering work should be tackled every sprint. If a team is experiencing sprint rollover, they should step back, and re-evaluate their sprint planning strategy. Sprint rollover should be the exception not the rule.
 
+Once per quarter, we try to have a clean-up sprint, where we tackle technical, design, and documentation debt, as well as other changes we think are important but have had trouble getting to. During clean-up sprint, we dedicate one day to just documentation.
+
 Additionally, we record best practices as it relates to groom and sprint planning in a Sprint learnings document.
 
 ### Ticket Management
 
-All developers are expected to keep their ticket statuses up to date at all times. Just as our communication section details, no one should have to waste time figuring out the state of work. PRs should be linked to the ticket, and questions and comments should be added to the ticket as well. 
+All developers are expected to keep their ticket statuses up to date at all times. Just as our communication section details, no one should have to waste time figuring out the state of work. PRs should be linked to the ticket, and questions and comments should be added to the ticket as well.
 
 Additionally when a ticket is ready for Quality Assurance (QA), notes on how to QA/verify your work must be added as a comment to the ticket, so the person QA-ing the work doesn't have to ask or guess how to verify your work.
 
-Sharing the responsibility for our work extends to ticket management as well. If you see that there's an issue that needs to be captured in a ticket, make the ticket. If you *truly* don't have time to do this, ask your team for help. 
+Sharing the responsibility for our work extends to ticket management as well. If you see that there's an issue that needs to be captured in a ticket, make the ticket. If you _truly_ don't have time to do this, ask your team for help.
 
 For urgent incidents, we follow the guidelines in our [Incident Playbook](https://github.com/DoSomething/communal-docs/tree/master/Incidents). Depending on the timeline for resolution, a ticket may be created to track progress, and if the timeline goes beyond one day, a daily slack standup thread is used to communicate status in addition to keeping the ticket up to date.
 
 #### Pivotal Tracker
+
 The following outlines the stages of a ticket in Pivotal Tracker. The buttons on a ticket are _Start_, _Finish_, _Deliver_, _Accept_ OR _Reject_, and they will transition a ticket within the different stages.
 
 ##### ⭐️ Feature OR 🐞 Bug Ticket
-* **Planned**: Ready for current iteration (also estimated if a Feature ticket).
-* **Unstarted**: No work has begun to address the ticket.
-* **Started**: Work has begun to address the ticket. In order to start the ticket, it must be estimated first.
-* **Finished**: Work to address ticket is completed. A pull request has been submitted and is awaiting review.
-* **Delivered**: The pull request has been merged and deployed to a QA environment. The developer has verified their work on this environment and added QA / testing notes to the ticket. At this stage, there will be review by Product, Design, and/or Data. The developer should @ mention any reviewers to make sure they're aware that the feature is ready for QA. Just as we expect developers to keep their ticket statuses up to date, we expect the same from Reviewers (Unstarted, In Review, Pass, or Revise). If the QA requires cross-team coordination or is particularly involved (e.g., lots of screenshots, states and verifications of outcomes), it is best to QA in a Slack thread (and link the thread in the ticket).
+
+- **Planned**: Ready for current iteration (also estimated if a Feature ticket).
+- **Unstarted**: No work has begun to address the ticket.
+- **Started**: Work has begun to address the ticket. In order to start the ticket, it must be estimated first.
+- **Finished**: Work to address ticket is completed. A pull request has been submitted and is awaiting review.
+- **Delivered**: The pull request has been merged and deployed to a QA environment. The developer has verified their work on this environment and added QA / testing notes to the ticket. At this stage, there will be review by Product, Design, and/or Data. The developer should @ mention any reviewers to make sure they're aware that the feature is ready for QA. Just as we expect developers to keep their ticket statuses up to date, we expect the same from Reviewers (Unstarted, In Review, Pass, or Revise). If the QA requires cross-team coordination or is particularly involved (e.g., lots of screenshots, states and verifications of outcomes), it is best to QA in a Slack thread (and link the thread in the ticket).
 
 ![Review States on a ticket](./assets/reviewStates.png)
 
-* **Rejected**: Reviewer (product manager or tech lead) has reviewed the work to address ticket and rejected it.
-* **Accepted**: Reviewer (product manager or tech lead) has reviewed the work to address ticket and accepted it.
+- **Rejected**: Reviewer (product manager or tech lead) has reviewed the work to address ticket and rejected it.
+- **Accepted**: Reviewer (product manager or tech lead) has reviewed the work to address ticket and accepted it.
 
 ##### ⚙️ Chore Ticket
-* **Planned**: Ready for current iteration.
-* **Unstarted**: No work has begun to address the ticket.
-* **Started**: Work has begun to address the ticket.
-* **Accepted**: Work to address ticket is completed, pull request was submitted, reviewed and merged.
+
+- **Planned**: Ready for current iteration.
+- **Unstarted**: No work has begun to address the ticket.
+- **Started**: Work has begun to address the ticket.
+- **Accepted**: Work to address ticket is completed, pull request was submitted, reviewed and merged.
 
 ### Code Review and Pull Requests
 
-We prefer simple, logic based project structures. We prefer code that's more readable and easier to understand over code that's concise or obfuscated. We strive to use conceptual naming conventions over point-in-time references, and even favor longer, easier to understand variable names over abbreviated ones. 
+We prefer simple, logic based project structures. We prefer code that's more readable and easier to understand over code that's concise or obfuscated. We strive to use conceptual naming conventions over point-in-time references, and even favor longer, easier to understand variable names over abbreviated ones.
 
 We also prefer DRY code, and favor small, single purpose functions over long functions that try to do too much.
 
@@ -163,31 +170,31 @@ A teammate must review your PR, get their questions answered, and give a +1 as a
 
 #### Making a Pull Request
 
-* If your code is not ready for a full review, create a [draft pull request](https://github.blog/2019-02-14-introducing-draft-pull-requests/). These are great for getting initial feedback on a direction you're taking. If it's a prototype that won't be merged, create a pull request prefixed with DON’T MERGE in the title. 
-* When you create a pull request, fill out the [pull request template](https://github.com/blog/2111-issue-and-pull-request-templates).
-* Highlight any areas you would particularly like review on.
+- If your code is not ready for a full review, create a [draft pull request](https://github.blog/2019-02-14-introducing-draft-pull-requests/). These are great for getting initial feedback on a direction you're taking. If it's a prototype that won't be merged, create a pull request prefixed with DON’T MERGE in the title.
+- When you create a pull request, fill out the [pull request template](https://github.com/blog/2111-issue-and-pull-request-templates).
+- Highlight any areas you would particularly like review on.
 
 #### Giving Feedback on a Pull Request
 
-* Ask questions, don't make demands.
-* Be mindful about how comments come off: "Did you think about" is better than "Why didn't you just..."
-* Compliment! If you see something you like, let them know.
-* If you see multiple examples of the same thing (spelling, caps) don't comment every time, rather make one comment saying you noticed it throughout.
-* Give full context for your comments, so they don’t read as arbitrary.
-* If you see a code smell, point them to the [prescription](https://sourcemaking.com/refactoring/smells).
-* Use PRs as a learning opportunity - ask questions to learn more even if you don't have specific feedback on the work itself. If you see that there's confusion / back and forth on an issue/set of issues, that could be an indication that a Dev Roundtable on the topic should be scheduled - propose the topic so that it can be scheduled and organized!
+- Ask questions, don't make demands.
+- Be mindful about how comments come off: "Did you think about" is better than "Why didn't you just..."
+- Compliment! If you see something you like, let them know.
+- If you see multiple examples of the same thing (spelling, caps) don't comment every time, rather make one comment saying you noticed it throughout.
+- Give full context for your comments, so they don’t read as arbitrary.
+- If you see a code smell, point them to the [prescription](https://sourcemaking.com/refactoring/smells).
+- Use PRs as a learning opportunity - ask questions to learn more even if you don't have specific feedback on the work itself. If you see that there's confusion / back and forth on an issue/set of issues, that could be an indication that a Dev Roundtable on the topic should be scheduled - propose the topic so that it can be scheduled and organized!
 
 #### What Should the Reviewer Look for?
 
-* Does this PR solve the issue it's referencing?
-* Is the code readable?
-* Is it well commented?
+- Does this PR solve the issue it's referencing?
+- Is the code readable?
+- Is it well commented?
 
 #### Responding to Feedback on your Pull Request
 
-* Don't take comments personally: it should be a conversation, not a personal attack.
-* Make sure you understand _why_ you're making the requested changes: Does it make sense? Does it improve the code?
-* After you're done implementing the changes, re-ping for a second review!
+- Don't take comments personally: it should be a conversation, not a personal attack.
+- Make sure you understand _why_ you're making the requested changes: Does it make sense? Does it improve the code?
+- After you're done implementing the changes, re-ping for a second review!
 
 #### Merging your Pull Request
 
@@ -199,6 +206,7 @@ After merging a PR, please make sure to delete the branch so that they are clear
 ### Quality Assurance
 
 #### Design QA
+
 Generally it takes at least a day to complete Design QA. It is important to note that Design QA is non-blocking for a deploy to Production. However, Design QA review blocks closing the ticket.
 
 #### Developer QA
@@ -207,7 +215,7 @@ You should be fully QA-ing your work before you get a second pair of eyes to ver
 
 We have a [BrowserStack](https://www.browserstack.com/) account (credentials in LastPass) that allows us to verify work on a vast array of devices and browsers. If your change is something small, doing the full review in BrowserStack is not needed, but checking screenshots at small, medium, and large viewport sizes is still required. At minimum, you should check your work on Chrome and Safari.
 
-If it’s a large change / involves a high degree of CSS complexity, please make sure to check your work on BrowserStack and attach screenshots to your ticket before delivering to Design/Product for QA. It is important to check your work on Chrome, Safari, Edge Browsers and on iOS, Windows, Macintosh, Chrome OS, and Android. Check (or ask) Google Analytics for what our top operating systems and browers are if you want to check specific combinations. 
+If it’s a large change / involves a high degree of CSS complexity, please make sure to check your work on BrowserStack and attach screenshots to your ticket before delivering to Design/Product for QA. It is important to check your work on Chrome, Safari, Edge Browsers and on iOS, Windows, Macintosh, Chrome OS, and Android. Check (or ask) Google Analytics for what our top operating systems and browers are if you want to check specific combinations.
 
 ### API Design
 
@@ -221,33 +229,35 @@ We constantly seek to simplify our toolset and our production environment, becau
 
 Devops is handled by the teams themselves. At least two sprints before a new system goes into production, the responsible team needs to figure out and handle \(at least\) these requirements.
 
-* Mission criticality \(an experiment, an add-on, or a new critical service?\)
-* Architecture and tech stack walkthrough
-* Hosting paradigm: Can this run in a serverless environment?
-* Deployment mechanism
-* Data storage & backup
-* Security and member data privacy
-* ETL \(data extraction\) processes
-* New Relic and other monitoring integrations
-* Milestone dates \(launch, etc.\) on the shared Tech Dates calendar
-* QA and Production DNS entries
-* LogStash support
+- Mission criticality \(an experiment, an add-on, or a new critical service?\)
+- Architecture and tech stack walkthrough
+- Hosting paradigm: Can this run in a serverless environment?
+- Deployment mechanism
+- Data storage & backup
+- Security and member data privacy
+- ETL \(data extraction\) processes
+- New Relic and other monitoring integrations
+- Milestone dates \(launch, etc.\) on the shared Tech Dates calendar
+- QA and Production DNS entries
+- LogStash support
 
 Some apps may also require the following support:
 
-* Instrumentation of significant user or business events
-* Transactional ID handling \(for instance, with our [Gateway](https://github.com/DoSomething/gateway) project\)
-* Runscope or Ghost Inspector tests for monitoring and debugging
-* TLS requirements
-* Laravel Queue requirements
-* [Blink](https://github.com/DoSomething/blink) \(message bus\) integration
-* Fastly support
+- Instrumentation of significant user or business events
+- Transactional ID handling \(for instance, with our [Gateway](https://github.com/DoSomething/gateway) project\)
+- Runscope or Ghost Inspector tests for monitoring and debugging
+- TLS requirements
+- Laravel Queue requirements
+- [Blink](https://github.com/DoSomething/blink) \(message bus\) integration
+- Fastly support
 
 ### Deployments
 
 We deploy as often as we can, and look for ways to increase the frequency. We have ChatOps integration through Slack, where possible (e.g., [Heroku](https://devcenter.heroku.com/articles/chatops)).
 
-We use both Jenkins and Wercker for deploys. Wercker is standard for most deploys. Heroku-hosted apps use the standard Heroku deployment workflow.
+Most of our apps are hosted on Heroku and use the [standard Heroku deployment workflow](https://devcenter.heroku.com/articles/pipelines#promoting). Applications that aren't hosted on Heroku are deployed via CircleCI.
+
+In Slack, we have daily reminders to deploy a few of our apps to make sure we don't go too long without deploying and end up with too many changes getting deployed all at once. Additionally, engineers can deploy their own changes once their QA is done. This is encouraged because it allows us to deploy changes in smaller chunks. For some apps, we require Ghost Inspector tests to be run on QA before deploying to production to make sure all is well. Other apps may also require Ghost Inspector to be run on production immediately following a deploy, and these instructions can be found in the daily reminders for each app.
 
 ### Hosting Infrastructure
 
@@ -285,10 +295,10 @@ We use Looker to surface and explore data.
 
 We have a standard set of position levels across the organization:
 
-* Associate
-* Manager
-* Director
-* C-Level
+- Associate
+- Manager
+- Director
+- C-Level
 
 Positions within product and engineering implicitly follow those levels as well, but we add more structure to our job titles because it maps more clearly onto the outside world. We don't want anyone to have an idiomatic title \(“Deputy Chief Monster Imagineer"\) that might be a hindrance to making a great career move after DoSomething.
 
@@ -296,12 +306,12 @@ It's possible to switch between management and technical track—there's not a r
 
 #### Technical Track
 
-* [Junior Software Engineer \(JSE\)](positions/juniorsoftwareengineer.md)
-* [Software Engineer \(SE\)](positions/softwareengineer.md)
-* [Senior Software Engineer \(SSE\)](positions/seniorsoftwareengineer.md)
-* [Senior Software Engineer \(SSE\) with Tech Lead Role](positions/senior-software-engineer-sse-with-tech-lead-role.md)
-  * [Technical Lead](positions/techlead.md): This is a role to play on a team, not a job title. The tech team lead serves as the engineering point person for a particular team, helps to define and delegate work, provide estimates, and make architectural decisions. Tech team leads do not manage the other engineers' careers, only their work. There is another version of this role that is technical only \(does not involve leading a team\), meaning that the engineer is responsible for leading, designing, and serving as the main maintainer of a large project/application/service. There is overlap in responsibilities at a high level. Technical leads gather for a monthly architecture governance meeting, where they work together on systems integration and other high-level topics. 
-* [Staff Engineer](positions/staffengineer.md)
+- [Junior Software Engineer \(JSE\)](positions/juniorsoftwareengineer.md)
+- [Software Engineer \(SE\)](positions/softwareengineer.md)
+- [Senior Software Engineer \(SSE\)](positions/seniorsoftwareengineer.md)
+- [Senior Software Engineer \(SSE\) with Tech Lead Role](positions/senior-software-engineer-sse-with-tech-lead-role.md)
+  - [Technical Lead](positions/techlead.md): This is a role to play on a team, not a job title. The tech team lead serves as the engineering point person for a particular team, helps to define and delegate work, provide estimates, and make architectural decisions. Tech team leads do not manage the other engineers' careers, only their work. There is another version of this role that is technical only \(does not involve leading a team\), meaning that the engineer is responsible for leading, designing, and serving as the main maintainer of a large project/application/service. There is overlap in responsibilities at a high level. Technical leads gather for a monthly architecture governance meeting, where they work together on systems integration and other high-level topics.
+- [Staff Engineer](positions/staffengineer.md)
 
 More information on the roles and responsibilities can be viewed either as a grid [here](https://docs.google.com/spreadsheets/d/1whumiRDUPT3qUrEPtc-k8sCfzYAYrOcU6pCGn8UfNGI/edit?usp=sharing) or on the different position pages linked to above.
 
@@ -309,7 +319,7 @@ More information on the roles and responsibilities can be viewed either as a gri
 
 _We don’t have people in all of these positions, but this is the progression._
 
-* [Engineering Manager](positions/engineering-manager.md)
-* [Director of Engineering](positions/director-of-engineering.md)
-* [VP of Engineering](positions/vp-of-engineering.md)
-* [CTO](positions/cto.md)
+- [Engineering Manager](positions/engineering-manager.md)
+- [Director of Engineering](positions/director-of-engineering.md)
+- [VP of Engineering](positions/vp-of-engineering.md)
+- [CTO](positions/cto.md)
