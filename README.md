@@ -43,7 +43,7 @@ As Google’s [Project Aristotle](https://www.nytimes.com/2016/02/28/magazine/wh
 
 ### Communication
 
-While most people are in the New York office, not everyone is, and most people work remotely at least some of the time every week. Communication and documentation are crucial. Make liberal use of the tools we use to include everyone in the conversation: Slack, video chat, Google Drive and Calendar, Pivotal Tracker, and GitHub.
+We've had a distributed team for many years, and since 2020 we've all worked remotely. Communication and documentation are crucial. Make liberal use of the tools we use to include everyone in the conversation: Slack, video chat, Google Drive and Calendar, Pivotal Tracker, and GitHub.
 
 The rule of thumb should be to err on overcommunication: No one, technical or non-technical, should wonder what Person A is working on or if they are stuck, or the outcome of a meeting.
 
@@ -105,12 +105,12 @@ All of our code is open source and on GitHub. We organize stories and plan sprin
 
 ### Sprints
 
-Our sprints are 2 weeks long. We have the following meetings:
+Our sprints are 4 weeks long. We have the following meetings:
 
-- **Sprint Planning**: Individual teams hold sprint planning meetings at the start of the sprint. Work is estimated, tickets are assigned, and the team determines how much they can commit to completing. Everyone is expected to review potential upcoming work prior to sprint planning in order to estimate and discuss the work effectively.
+- **Sprint Planning**: The applications, platforms, and data teams hold sprint planning meetings at the start of the sprint. Work is estimated, tickets are assigned, and the team determines how much they can commit to completing. Everyone is expected to review potential upcoming work prior to sprint planning in order to estimate and discuss the work effectively.
 - **Mega-groom**: The full team meets to discuss work for the upcoming sprint. This is scheduled the week before sprint planning. The meeting has an agenda that is created by both product managers and tech leads. In addition to providing visibility into upcoming work cross-team, approach and open questions are discussed at a high level. Everyone should review this document prior to the meeting so they can come prepared to discuss the work.
 - **Sprint Demos**: Near the end of the sprint on Thursday afternoons, members volunteer to demo what they've worked on. This meeting involves the full team and optionally other department members. Demos should not be overly long or technical as the audience of demos involves non-technical folks. If a deep dive or longer technical demo is desired, we can use the following week's Dev Roundtable (see below about Dev Roundtables) slot.
-- **Sprint Retro**: Immediately following demos, we meet to discuss What Went Well, What to To Improve, and Other Discussion Topics. We hold an all-teams retro, which is great for general culture, surfacing larger questions or issues, and providing full team updates. We also typically celebrate a person who’s been a Goddamn Champion (GDC) in having a positive impact through their work over the past sprint. The GDC winner receives a $25 gift card.
+- **Sprint Retro**: Immediately following demos, we meet to discuss What Went Well, What to To Improve, and Other Discussion Topics. We hold an all-teams retro, which is great for general culture, surfacing larger questions or issues, and providing full team updates. We also typically celebrate a person who’s been a Goddamn Champion (GDC) in having a positive impact through their work over the past sprint.
 
 _**Another regular meeting to note:** We typically have a brown bag lunch meeting on Wednesdays at noon. It is called Dev Roundtable. These meetings are typically technical and can involve technical demos/presentations, working sessions, or discussions._
 
@@ -162,11 +162,11 @@ We also prefer DRY code, and favor small, single purpose functions over long fun
 
 We use these [general guidelines](https://github.com/DoSomething/communal-docs/tree/master/Contributing) to guide how we contribute to our codebases.
 
-We work in branches, generally off of dev (or master, depending on the project). We commit often, to capture our thinking. We package up our work as pull requests, and try to keep PRs reasonably small. (This also makes it more likely someone will review your PR!)
+We work in branches and frequently merge our work back into the default branch. We commit often, to capture our thinking. We package up our work as pull requests, and try to keep PRs reasonably small. (This also makes it more likely someone will review your PR!)
 
 We push changes multiple times a day to (remote) branches. We always push changes at the end of the day.
 
-A teammate must review your PR, get their questions answered, and give a +1 as approval before you can merge your changes. The main branch is [protected](https://help.github.com/articles/about-required-reviews-for-pull-requests/). The reason we review code is not just to catch bugs, but because we want to improve the quality of code that we ship. We want our code to be maintainable, easily understood, and [stylish](https://github.com/DoSomething/code-style). If you push code to production, you’re implicitly vouching for it as an example of how to write code at DoSomething. When possible, we use StyleCI to enforce coding style and conventions. StyleCI gets called for each PR and update.
+A teammate must review your PR, get their questions answered, and give a +1 as approval before you can merge your changes. The main branch is [protected](https://help.github.com/articles/about-required-reviews-for-pull-requests/). The reason we review code is not just to catch bugs, but because we want to improve the quality of code that we ship. We want our code to be maintainable & easily understood. If you push code to production, you’re implicitly vouching for it as an example of how to write code at DoSomething. We use formatters (like [Prettier](https://prettier.io)) and linters to reduce the amount of nit-picks in reviews.
 
 #### Making a Pull Request
 
@@ -223,13 +223,13 @@ We love the book [Build APIs you won't hate](https://leanpub.com/build-apis-you-
 
 Version your API when making significant changes. With the proliferation of interrelated services in our environment, it can be very difficult to know whether a substantial change to an endpoint you own will have side effects elsewhere. There are [plenty of good resources](http://www.baeldung.com/rest-versioning) out there, as well as established practices at DoSomething. Talk to your fellow engineers to make sure your approach makes sense.
 
-### DevOps
+### Operations
 
 We constantly seek to simplify our toolset and our production environment, because simplicity brings greater understanding, easier automation, more security, and better reliability. \(Simplifying is hard, and takes vigilance.\) A lot of our tech choices are [boring on purpose](http://mcfunley.com/choose-boring-technology).
 
-Devops is handled by the teams themselves. At least two sprints before a new system goes into production, the responsible team needs to figure out and handle \(at least\) these requirements.
+At least two sprints before a new system goes into production, the responsible team needs to figure out and handle \(at least\) these requirements:
 
-- Mission criticality \(an experiment, an add-on, or a new critical service?\)
+- Mission criticality \(is this an experiment, an add-on, or a new critical service?\)
 - Architecture and tech stack walkthrough
 - Hosting paradigm: Can this run in a serverless environment?
 - Deployment mechanism
@@ -239,7 +239,7 @@ Devops is handled by the teams themselves. At least two sprints before a new sys
 - New Relic and other monitoring integrations
 - Milestone dates \(launch, etc.\) on the shared Tech Dates calendar
 - QA and Production DNS entries
-- LogStash support
+- Papertrail logging integration
 
 Some apps may also require the following support:
 
@@ -248,7 +248,6 @@ Some apps may also require the following support:
 - Runscope or Ghost Inspector tests for monitoring and debugging
 - TLS requirements
 - Laravel Queue requirements
-- [Blink](https://github.com/DoSomething/blink) \(message bus\) integration
 - Fastly support
 
 ### Deployments
@@ -273,11 +272,11 @@ The remainder of our environment is hosted in AWS. We make heavy use of EC2, RDS
 
 ### Testing and Monitoring
 
-We maintain quality with [unit and functional testing](https://github.com/DoSomething/rfcs/blob/master/004-testing.md), and we’re constantly trying to find better ways to test. We strongly prefer frameworks, like Laravel, that have unit testing built in to their core.
+We maintain quality with [unit and functional testing](https://github.com/DoSomething/rfcs/blob/master/004-testing.md), and we’re constantly trying to find better ways to test. We strongly prefer frameworks, like Laravel, that have testing built in to their core.
 
 We [monitor](https://github.com/DoSomething/communal-docs/tree/master/Monitoring) with New Relic, StatHat, [Runscope, and Ghost Inspector](https://github.com/DoSomething/communal-docs/tree/master/Automated%20Tests). We centralize alerts and alerting policies in PagerDuty, and maintain an [on-call rotation](https://github.com/DoSomething/rfcs/blob/master/007-on-call.md). We have an [Incident Playbook](https://github.com/DoSomething/communal-docs/tree/master/Incidents) and we document common issues we might see for a given service.
 
-Every Wednesday of the month we hold a Post-mortem / Incident review meeting. Tech leads are responsible for creating the tickets generated from the meeting (if they don't exist already) and following up with Product Managers to discuss prioritization. These tickets are placed in the Collective Freezer Pivotal Tracker board. At the start of the meeeting, we review tickets, followup items from the previous month, and discuss the incidents that have occurred.
+At the end of each month, we hold a Post-mortem / Incident review meeting. When an incident occurs, the on-call engineer adds a summary to this meeting's [agenda document](https://docs.google.com/document/d/1-0_7hHc8B4TVUdGGyfQ00pVyMeqQ9b4A0Y06vIrh8u8/edit). The whole team reviews the document & [dot votes](https://www.nngroup.com/articles/dot-voting/) to choose the most interesting incidents to discuss in greater depth at the meeting.
 
 ### Documentation
 
@@ -287,9 +286,7 @@ We document in code \(doc blocks, etc.\), and in Markdown Readme files in the so
 
 ### Data Collection and Management
 
-We collect raw data in [our warehouse](https://github.com/DoSomething/quasar) and transform data in [DBT](https://github.com/fishtown-analytics/dbt); we prefer making apps push their events to the warehouse rather than writing ETL tools to scrape APIs and we prefer a layered (hierarchical) data model approach to a flat design to ensure endpoints are comprehensible by end users.
-
-We use Looker to surface and explore data.
+We collect raw data in [our warehouse](https://github.com/DoSomething/quasar) using [Fivetran](https://fivetran.com) and transform data in [DBT](https://github.com/fishtown-analytics/dbt). We use Looker to surface and explore this data.
 
 ## Titles and Career Growth
 
